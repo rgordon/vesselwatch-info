@@ -1,0 +1,13 @@
+2012/09/24
+
+VesselWatch not available via standard API.
+web page at:
+http://www.wsdot.com/ferries/vesselwatch/Default.aspx
+
+does a periodic retrieval of data "Vessels.ashx" and then uses this data to draw map.
+
+There are other feeds as well:
+Cameras.ashx:
+Terminals.ashx
+Vessels.ashx
+

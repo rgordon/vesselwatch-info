@@ -1,0 +1,2471 @@
+{
+	"FeedName": "Ferry Terminals",
+	"AppUrl": "http://www.wsdot.wa.gov/ferries/vesselwatch",
+	"LegendItemList": [{
+		"String": "",
+		"Icon": "./images/terminalicon16.png",
+		"Description": "Terminal"
+	}],
+	"FeedContentList": [{
+		"Terminal": {
+			"TerminalID": 1,
+			"TerminalName": "Anacortes",
+			"Latitude": 48.507351,
+			"Longitude": -122.677,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "A 45-60 minute advance arrival is advised for vehicle traffic. For the afternoon sailing a 90 minute advance arrival is advised. <p> Passengers should arrive at least 20 minutes prior to departure time.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 1,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 2,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 3,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 4,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 5,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 6,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 7,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 8,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 9,
+				"Lat": 48.507351,
+				"Lon": -122.677
+			}, {
+				"Zm": 10,
+				"Lat": 48.499482,
+				"Lon": -122.664992
+			}, {
+				"Zm": 11,
+				"Lat": 48.501302,
+				"Lon": -122.668425
+			}, {
+				"Zm": 12,
+				"Lat": 48.500619,
+				"Lon": -122.678038
+			}, {
+				"Zm": 13,
+				"Lat": 48.504032,
+				"Lon": -122.679068
+			}, {
+				"Zm": 14,
+				"Lat": 48.506022,
+				"Lon": -122.678725
+			}, {
+				"Zm": 15,
+				"Lat": 48.506591,
+				"Lon": -122.678124
+			}, {
+				"Zm": 16,
+				"Lat": 48.506591,
+				"Lon": -122.677995
+			}, {
+				"Zm": 17,
+				"Lat": 48.506612,
+				"Lon": -122.678006
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9047,
+			"Lat": 48.505975,
+			"Lon": -122.679048,
+			"Title": "WSF Anacortes Ferry Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/terminal/anaterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9048,
+			"Lat": 48.503437,
+			"Lon": -122.679509,
+			"Title": "WSF Anacortes Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/holding/anahold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9049,
+			"Lat": 48.501976,
+			"Lon": -122.679337,
+			"Title": "WSF Anacortes Ferry Terminal Rd",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/road/anaroad.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 3,
+			"TerminalName": "Bainbridge Island",
+			"Latitude": 47.622339,
+			"Longitude": -122.509617,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Sea/BI/Brem - On Tuesday, 9/25, Colman Dock elevators OOS for electrical work.",
+				"BulletinText": "Colman Dock passenger elevators will be shut down for electrical work at the Seattle terminal at 12:15 a.m. Tuesday night and will reopen Wednesday morning at 4:30 a.m.  The stair lighting next to the elevators will also be turned off and the stairs will close for your safety.  The south side of the passenger level (Bremerton side) will also be blocked during this time. Passengers may access the terminal from the overhead walkway, the north stairs off Marion Street or the passenger ramp off Alaskan Way. \n",
+				"BulletinSortSeq": 25,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "The first three morning departures have extremely heavy vehicle traffic, a 45-60 minute advance arrival suggested during this time. For other peak sailings, through about 10:00am, 45 minutes ahead is recommended. For non-peak travel, a minimum of 20 minutes ahead is suggested.<p>Passengers should arrive at least \n15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 1,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 2,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 3,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 4,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 5,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 6,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 7,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 8,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 9,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 10,
+				"Lat": 47.622339,
+				"Lon": -122.509617
+			}, {
+				"Zm": 11,
+				"Lat": 47.625784,
+				"Lon": -122.516214
+			}, {
+				"Zm": 12,
+				"Lat": 47.624396,
+				"Lon": -122.512437
+			}, {
+				"Zm": 13,
+				"Lat": 47.623586,
+				"Lon": -122.511407
+			}, {
+				"Zm": 14,
+				"Lat": 47.623065,
+				"Lon": -122.511063
+			}, {
+				"Zm": 15,
+				"Lat": 47.622892,
+				"Lon": -122.510634
+			}, {
+				"Zm": 16,
+				"Lat": 47.622747,
+				"Lon": -122.510463
+			}, {
+				"Zm": 17,
+				"Lat": 47.622682,
+				"Lon": -122.510387
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9040,
+			"Lat": 47.62314,
+			"Lon": -122.5112,
+			"Title": "WSF Bainbridge Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Bainbridge/Bainbridge.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 4,
+			"TerminalName": "Bremerton",
+			"Latitude": 47.561847,
+			"Longitude": -122.624089,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Sea/BI/Brem - On Tuesday, 9/25, Colman Dock elevators OOS for electrical work.",
+				"BulletinText": "Colman Dock passenger elevators will be shut down for electrical work at the Seattle terminal at 12:15 a.m. Tuesday night and will reopen Wednesday morning at 4:30 a.m.  The stair lighting next to the elevators will also be turned off and the stairs will close for your safety.  The south side of the passenger level (Bremerton side) will also be blocked during this time. Passengers may access the terminal from the overhead walkway, the north stairs off Marion Street or the passenger ramp off Alaskan Way. \n",
+				"BulletinSortSeq": 25,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "The morning departures through the 7:20am sailing are the most heavily traveled with vehicle traffic. Vehicle drivers are advised to arrive 45-60 minutes prior to sailing. In the afternoon the 3:00 p.m. sailing may be busy with a 30 minute advance arrival suggested. For non-peak travel, a 20 minute advance arrival is suggested. <br>Walk-on passengers should arrive at least 10 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 1,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 2,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 3,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 4,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 5,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 6,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 7,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 8,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 9,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 10,
+				"Lat": 47.561847,
+				"Lon": -122.624089
+			}, {
+				"Zm": 11,
+				"Lat": 47.561418,
+				"Lon": -122.632943
+			}, {
+				"Zm": 12,
+				"Lat": 47.56165,
+				"Lon": -122.629167
+			}, {
+				"Zm": 13,
+				"Lat": 47.56304,
+				"Lon": -122.625219
+			}, {
+				"Zm": 14,
+				"Lat": 47.562345,
+				"Lon": -122.624875
+			}, {
+				"Zm": 15,
+				"Lat": 47.562026,
+				"Lon": -122.624789
+			}, {
+				"Zm": 16,
+				"Lat": 47.5622,
+				"Lon": -122.624854
+			}, {
+				"Zm": 17,
+				"Lat": 47.562207,
+				"Lon": -122.624843
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9037,
+			"Lat": 47.56265,
+			"Lon": -122.62535,
+			"Title": "WSF Bremerton Holding North",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/bremerton/holding/holding.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 5,
+			"TerminalName": "Clinton",
+			"Latitude": 47.9754,
+			"Longitude": -122.349581,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "Peak traffic volumes begin with the first morning departure through the 10:00 am sailing.  Vehicles are advised to arrive 30-45 minutes in advance.  For non-peak travel a 20 minute advance arrival is suggested. <p> Walk on passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 1,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 2,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 3,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 4,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 5,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 6,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 7,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 8,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 9,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 10,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 11,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 12,
+				"Lat": 47.9754,
+				"Lon": -122.349581
+			}, {
+				"Zm": 13,
+				"Lat": 47.975465,
+				"Lon": -122.352097
+			}, {
+				"Zm": 14,
+				"Lat": 47.974948,
+				"Lon": -122.351496
+			}, {
+				"Zm": 15,
+				"Lat": 47.974948,
+				"Lon": -122.351367
+			}, {
+				"Zm": 16,
+				"Lat": 47.975034,
+				"Lon": -122.351324
+			}, {
+				"Zm": 17,
+				"Lat": 47.975027,
+				"Lon": -122.351335
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9172,
+			"Lat": 47.974711,
+			"Lon": -122.352462,
+			"Title": "Clinton Uphill",
+			"ImgURL": "http://209.166.88.226/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}, {
+			"CamID": 9173,
+			"Lat": 47.974689,
+			"Lon": -122.352236,
+			"Title": "Clinton Dock",
+			"ImgURL": "http://209.166.88.225/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com ",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}, {
+			"CamID": 9174,
+			"Lat": 47.979695,
+			"Lon": -122.357644,
+			"Title": "Clinton E SR 525",
+			"ImgURL": "http://209.166.85.97/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com ",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}, {
+			"CamID": 9175,
+			"Lat": 47.979681,
+			"Lon": -122.357429,
+			"Title": "Clinton W SR 525",
+			"ImgURL": "http://209.166.85.98/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}, {
+			"CamID": 9166,
+			"Lat": 47.974546,
+			"Lon": -122.352017,
+			"Title": "WSF Clinton Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/clinton/terminal/clinton.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 11,
+			"TerminalName": "Coupeville ",
+			"Latitude": 48.159008,
+			"Longitude": -122.672603,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "PT/Coup - Fall Schedule Changes",
+				"BulletinText": "Washington State Ferries’ fall schedule begins this Sunday Sept. 23. The two-boat sailing schedule, with sailings every 45 minutes, will be reduced to one boat, with sailings every 90 minutes, beginning Tuesday, Oct. 9. ",
+				"BulletinSortSeq": 15,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "WSF recommends reservation holders arrive 30 minutes prior to departure to ensure timely processing and boarding. Reservations for vehicles and motorcycles can be made by calling 511 up to 2 hours prior to sailing. <p> Walk-on passengers are advised to arrive at least 15 minutes prior to sailings.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 1,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 2,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 3,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 4,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 5,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 6,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 7,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 8,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 9,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 10,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 11,
+				"Lat": 48.159008,
+				"Lon": -122.672603
+			}, {
+				"Zm": 12,
+				"Lat": 48.161217,
+				"Lon": -122.672564
+			}, {
+				"Zm": 13,
+				"Lat": 48.160645,
+				"Lon": -122.672564
+			}, {
+				"Zm": 14,
+				"Lat": 48.159786,
+				"Lon": -122.672735
+			}, {
+				"Zm": 15,
+				"Lat": 48.159414,
+				"Lon": -122.672607
+			}, {
+				"Zm": 16,
+				"Lat": 48.159242,
+				"Lon": -122.672671
+			}, {
+				"Zm": 17,
+				"Lat": 48.159206,
+				"Lon": -122.672671
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9169,
+			"Lat": 48.160022,
+			"Lon": -122.673974,
+			"Title": "WSF Coupeville Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Keystone/terminal/keyterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9170,
+			"Lat": 48.160022,
+			"Lon": -122.673974,
+			"Title": "WSF Coupeville Street",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Keystone/Street/keyStreet.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 8,
+			"TerminalName": "Edmonds",
+			"Latitude": 47.813378,
+			"Longitude": -122.385378,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": 6,
+				"RouteName": "Edmonds / Kingston",
+				"WaitTimeNotes": "From 2:30 PM through 7:00 pm, peak traffic volumes occur. A 45 to 60 minute advance arrival is advised.  For non-peak travel a 20-30 minute advance arrival is recommended. <p> Walk on passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 1,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 2,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 3,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 4,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 5,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 6,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 7,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 8,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 9,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 10,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 11,
+				"Lat": 47.813378,
+				"Lon": -122.385378
+			}, {
+				"Zm": 12,
+				"Lat": 47.812182,
+				"Lon": -122.381287
+			}, {
+				"Zm": 13,
+				"Lat": 47.812758,
+				"Lon": -122.383176
+			}, {
+				"Zm": 14,
+				"Lat": 47.812931,
+				"Lon": -122.383948
+			}, {
+				"Zm": 15,
+				"Lat": 47.813017,
+				"Lon": -122.384077
+			}, {
+				"Zm": 16,
+				"Lat": 47.812974,
+				"Lon": -122.384098
+			}, {
+				"Zm": 17,
+				"Lat": 47.81301,
+				"Lon": -122.38412
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9155,
+			"Lat": 47.810405,
+			"Lon": -122.383062,
+			"Title": "WSF Edmonds W Dayton St",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104dayton.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9156,
+			"Lat": 47.792528,
+			"Lon": -122.369853,
+			"Title": "WSF Edmonds VMS Sign",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104vms_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9157,
+			"Lat": 47.811747,
+			"Lon": -122.382174,
+			"Title": "WSF Edmonds Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/holding.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9158,
+			"Lat": 47.813279,
+			"Lon": -122.385014,
+			"Title": "WSF Edmonds Vessel",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/vessel.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9159,
+			"Lat": 47.802634,
+			"Lon": -122.383115,
+			"Title": "WSF Edmonds Underpass",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104underpass.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9160,
+			"Lat": 47.802634,
+			"Lon": -122.383115,
+			"Title": "WSF Edmonds Pine",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104pine.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 9,
+			"TerminalName": "Fauntleroy",
+			"Latitude": 47.5232,
+			"Longitude": -122.3967,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Faunt/Va/SW - Fall Schedule Changes",
+				"BulletinText": "Washington State Ferries, fall schedule begins this Sunday Sept. 23. There are many five minute changes this schedule including: the summer 4:30 a.m. sailing from Southworth to Vashon and Fauntleroy will be sailing this fall at 4:25 a.m. and the summer weekday 6:05 a.m. sailing from Southworth to Vashon and Fauntleroy will depart at 6 a.m. From Vashon, the 4:50 a.m. summer sailing from Vashon to Fauntleroy will depart this fall at 4:45 a.m. and the 5:45 a.m. summer weekend sailing from Vashon to Southworth moves to 5:40 a.m. for the fall. The 5:20 a.m. sailing from Fauntleroy to Vashon and Southworth moves to 5:15 a.m. this fall. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Faunt/Va/SW-Construction Activities at Fauntleroy",
+				"BulletinText": "Construction activities continue on King County's Barton Pump Station Upgrade Project adjacent to the Fauntleroy terminal. Beginning this week customers will notice more construction equipment and activity, with flaggers directing construction traffic in and out of the project site between 7 a.m. and 5:30 p.m. Monday through Friday. Work will be coordinated with busy ferry travel times. For more information please contact Kristine Cramer at kristine.cramer@kingcounty.gov or 206-263-3184, or call the 24-hour project hotline at 206-296-2999.  ",
+				"BulletinSortSeq": 49,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "Traffic patterns can build from 3:00pm-7:30pm, with a 45-60 minute advance arrival advised. For non-peak travel, a minimum of 20 minutes ahead is suggested. <p> Passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 1,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 2,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 3,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 4,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 5,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 6,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 7,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 8,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 9,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 10,
+				"Lat": 47.5232,
+				"Lon": -122.3967
+			}, {
+				"Zm": 11,
+				"Lat": 47.522946,
+				"Lon": -122.388498
+			}, {
+				"Zm": 12,
+				"Lat": 47.523178,
+				"Lon": -122.392617
+			}, {
+				"Zm": 13,
+				"Lat": 47.523062,
+				"Lon": -122.393476
+			}, {
+				"Zm": 14,
+				"Lat": 47.52312,
+				"Lon": -122.39442
+			}, {
+				"Zm": 15,
+				"Lat": 47.523207,
+				"Lon": -122.394677
+			}, {
+				"Zm": 16,
+				"Lat": 47.523207,
+				"Lon": -122.394806
+			}, {
+				"Zm": 17,
+				"Lat": 47.523222,
+				"Lon": -122.394849
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9038,
+			"Lat": 47.5232,
+			"Lon": -122.39359,
+			"Title": "WSF Fauntleroy Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/fauntleroy/terminal/fauntleroy.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 10,
+			"TerminalName": "Friday Harbor",
+			"Latitude": 48.535783,
+			"Longitude": -123.013844,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "A 60 minute advance arrival is advised for vehicle traffic. <p> Passengers should arrive at least 15 minutes prior to departure time.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 1,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 2,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 3,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 4,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 5,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 6,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 7,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 8,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 9,
+				"Lat": 48.535783,
+				"Lon": -123.013844
+			}, {
+				"Zm": 10,
+				"Lat": 48.534959,
+				"Lon": -123.034407
+			}, {
+				"Zm": 11,
+				"Lat": 48.535413,
+				"Lon": -123.021361
+			}, {
+				"Zm": 12,
+				"Lat": 48.536095,
+				"Lon": -123.018271
+			}, {
+				"Zm": 13,
+				"Lat": 48.534504,
+				"Lon": -123.01501
+			}, {
+				"Zm": 14,
+				"Lat": 48.535072,
+				"Lon": -123.01458
+			}, {
+				"Zm": 15,
+				"Lat": 48.535186,
+				"Lon": -123.014495
+			}, {
+				"Zm": 16,
+				"Lat": 48.535186,
+				"Lon": -123.014495
+			}, {
+				"Zm": 17,
+				"Lat": 48.535172,
+				"Lon": -123.014452
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 1233,
+			"Lat": 48.5351,
+			"Lon": -123.0066,
+			"Title": "Friday Harbor Ferry ",
+			"ImgURL": "http://www.islandcam.com/camimages/ffcam.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 240,
+			"CamOwner": "Islandcam.com",
+			"OwnerURL": "http://www.islandcam.com/friday_harbor.html",
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 12,
+			"TerminalName": "Kingston",
+			"Latitude": 47.794606,
+			"Longitude": -122.494328,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": 6,
+				"RouteName": "Edmonds / Kingston",
+				"WaitTimeNotes": "Peak traffic volumes occur through 10:00am with a 30-45 minute advance arrival recommended for vehicle traffic.  For non-peak travel, a 20 minute advance arrival is recommended. <p> Passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 1,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 2,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 3,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 4,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 5,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 6,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 7,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 8,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 9,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 10,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 11,
+				"Lat": 47.794606,
+				"Lon": -122.494328
+			}, {
+				"Zm": 12,
+				"Lat": 47.7971,
+				"Lon": -122.49674
+			}, {
+				"Zm": 13,
+				"Lat": 47.796062,
+				"Lon": -122.495538
+			}, {
+				"Zm": 14,
+				"Lat": 47.795543,
+				"Lon": -122.495795
+			}, {
+				"Zm": 15,
+				"Lat": 47.795514,
+				"Lon": -122.495881
+			}, {
+				"Zm": 16,
+				"Lat": 47.795572,
+				"Lon": -122.495838
+			}, {
+				"Zm": 17,
+				"Lat": 47.795572,
+				"Lon": -122.495871
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9151,
+			"Lat": 47.797124,
+			"Lon": -122.495519,
+			"Title": "WSF Kingston Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/terminal/kingston.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9152,
+			"Lat": 47.80941,
+			"Lon": -122.52564,
+			"Title": "WSF Kingston Ferry Sign East",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/fse/fse.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9153,
+			"Lat": 47.80941,
+			"Lon": -122.52564,
+			"Title": "WSF Kingston Ferry Sign West",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/fsw/fsw.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9154,
+			"Lat": 47.807814,
+			"Lon": -122.516675,
+			"Title": "WSF Kingston Barber",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/barber/barber.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 13,
+			"TerminalName": "Lopez Island",
+			"Latitude": 48.570928,
+			"Longitude": -122.882764,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "A 60 minute advance arrival is recommended for vehicle traffic. <p> Passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 1,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 2,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 3,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 4,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 5,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 6,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 7,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 8,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 9,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 10,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 11,
+				"Lat": 48.570928,
+				"Lon": -122.882764
+			}, {
+				"Zm": 12,
+				"Lat": 48.568821,
+				"Lon": -122.884032
+			}, {
+				"Zm": 13,
+				"Lat": 48.569389,
+				"Lon": -122.88386
+			}, {
+				"Zm": 14,
+				"Lat": 48.570184,
+				"Lon": -122.88386
+			}, {
+				"Zm": 15,
+				"Lat": 48.570581,
+				"Lon": -122.883517
+			}, {
+				"Zm": 16,
+				"Lat": 48.570567,
+				"Lon": -122.883431
+			}, {
+				"Zm": 17,
+				"Lat": 48.570588,
+				"Lon": -122.883409
+			}]
+		},
+		"FerryCameras": []
+	}, {
+		"Terminal": {
+			"TerminalID": 14,
+			"TerminalName": "Mukilteo",
+			"Latitude": 47.949544,
+			"Longitude": -122.304997,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": 7,
+				"RouteName": "Mukilteo / Clinton",
+				"WaitTimeNotes": "Peak traffic volumes occur with the afternoon commute between 3:00 pm and 8:00 pm.  Vehicles are advised to arrive 30 to 45 minutes prior to sailing.  For non-peak travel a 20 minute advance arrival is advised. <p> Walk on passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 1,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 2,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 3,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 4,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 5,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 6,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 7,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 8,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 9,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 10,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 11,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 12,
+				"Lat": 47.949544,
+				"Lon": -122.304997
+			}, {
+				"Zm": 13,
+				"Lat": 47.948337,
+				"Lon": -122.30386
+			}, {
+				"Zm": 14,
+				"Lat": 47.94874,
+				"Lon": -122.304118
+			}, {
+				"Zm": 15,
+				"Lat": 47.949085,
+				"Lon": -122.304246
+			}, {
+				"Zm": 16,
+				"Lat": 47.949099,
+				"Lon": -122.304311
+			}, {
+				"Zm": 17,
+				"Lat": 47.949135,
+				"Lon": -122.304311
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9161,
+			"Lat": 47.933594,
+			"Lon": -122.306442,
+			"Title": "WSF Mukilteo Clover Ln",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/525atCloverLn/525atCloverLn_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9162,
+			"Lat": 47.928391,
+			"Lon": -122.300497,
+			"Title": "WSF Mukilteo N 525 at 76th",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/N_525at76th/N_525at76th_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9163,
+			"Lat": 47.928391,
+			"Lon": -122.300497,
+			"Title": "WSF Mukilteo S 525 at 76th",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/S_525at76th/S_525at76th_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9164,
+			"Lat": 47.948045,
+			"Lon": -122.30362,
+			"Title": "WSF Mukilteo South Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/Terminal/mukterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9165,
+			"Lat": 47.948244,
+			"Lon": -122.302963,
+			"Title": "WSF Mukilteo North Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/North/North.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 15,
+			"TerminalName": "Orcas Island",
+			"Latitude": 48.597333,
+			"Longitude": -122.943494,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "A 60 minute advance arrival is recommended for vehicle traffic. <p> Passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 1,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 2,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 3,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 4,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 5,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 6,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 7,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 8,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 9,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 10,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 11,
+				"Lat": 48.597333,
+				"Lon": -122.943494
+			}, {
+				"Zm": 12,
+				"Lat": 48.599481,
+				"Lon": -122.943427
+			}, {
+				"Zm": 13,
+				"Lat": 48.598232,
+				"Lon": -122.943255
+			}, {
+				"Zm": 14,
+				"Lat": 48.597778,
+				"Lon": -122.943942
+			}, {
+				"Zm": 15,
+				"Lat": 48.597693,
+				"Lon": -122.943856
+			}, {
+				"Zm": 16,
+				"Lat": 48.597651,
+				"Lon": -122.94392
+			}, {
+				"Zm": 17,
+				"Lat": 48.597636,
+				"Lon": -122.943952
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9171,
+			"Lat": 48.598671,
+			"Lon": -122.945415,
+			"Title": "Orcas Ferry",
+			"ImgURL": "http://www.islandcam.com/camimages/ofcam.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 240,
+			"CamOwner": "Islandcam.com",
+			"OwnerURL": "http://www.islandcam.com/orcas.html",
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 16,
+			"TerminalName": "Point Defiance",
+			"Latitude": 47.306519,
+			"Longitude": -122.514053,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "The peak commute hours are between 3:00 p.m. and 7:00 p.m. with 20-30 minute advance arrival suggested for vehicle traffic. For non-peak departures, a 20 minute advance arrival is suggested. <p> Walk-on passengers should arrive at least 15 minutes prior to departure time.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 1,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 2,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 3,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 4,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 5,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 6,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 7,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 8,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 9,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 10,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 11,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 12,
+				"Lat": 47.306519,
+				"Lon": -122.514053
+			}, {
+				"Zm": 13,
+				"Lat": 47.30356,
+				"Lon": -122.514667
+			}, {
+				"Zm": 14,
+				"Lat": 47.304899,
+				"Lon": -122.514237
+			}, {
+				"Zm": 15,
+				"Lat": 47.305743,
+				"Lon": -122.514194
+			}, {
+				"Zm": 16,
+				"Lat": 47.305917,
+				"Lon": -122.514194
+			}, {
+				"Zm": 17,
+				"Lat": 47.305917,
+				"Lon": -122.514184
+			}]
+		},
+		"FerryCameras": []
+	}, {
+		"Terminal": {
+			"TerminalID": 17,
+			"TerminalName": "Port Townsend",
+			"Latitude": 48.110847,
+			"Longitude": -122.759039,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "PT/Coup - Fall Schedule Changes",
+				"BulletinText": "Washington State Ferries’ fall schedule begins this Sunday Sept. 23. The two-boat sailing schedule, with sailings every 45 minutes, will be reduced to one boat, with sailings every 90 minutes, beginning Tuesday, Oct. 9. ",
+				"BulletinSortSeq": 15,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "WSF recommends reservation holders arrive 30 minutes prior to departure to ensure timely processing and boarding. Reservations for vehicles and motorcycles can be made by calling 511 up to 2 hours prior to sailing. <p> Walk-on passengers are advised to arrive at least 15 minutes prior to sailings.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 1,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 2,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 3,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 4,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 5,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 6,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 7,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 8,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 9,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 10,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 11,
+				"Lat": 48.110847,
+				"Lon": -122.759039
+			}, {
+				"Zm": 12,
+				"Lat": 48.112645,
+				"Lon": -122.762171
+			}, {
+				"Zm": 13,
+				"Lat": 48.112415,
+				"Lon": -122.760454
+			}, {
+				"Zm": 14,
+				"Lat": 48.112014,
+				"Lon": -122.760197
+			}, {
+				"Zm": 15,
+				"Lat": 48.111986,
+				"Lon": -122.760154
+			}, {
+				"Zm": 16,
+				"Lat": 48.111957,
+				"Lon": -122.760154
+			}, {
+				"Zm": 17,
+				"Lat": 48.111957,
+				"Lon": -122.760132
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9167,
+			"Lat": 48.112086,
+			"Lon": -122.760466,
+			"Title": "WSF Port Townsend Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/PortTownsend/terminal/ptterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9168,
+			"Lat": 48.112086,
+			"Lon": -122.760466,
+			"Title": "WSF Port Townsend Street",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/PortTownsend/Street/ptStreet.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 7,
+			"TerminalName": "Seattle",
+			"Latitude": 47.602501,
+			"Longitude": -122.340472,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Sea/BI/Brem - On Tuesday, 9/25, Colman Dock elevators OOS for electrical work.",
+				"BulletinText": "Colman Dock passenger elevators will be shut down for electrical work at the Seattle terminal at 12:15 a.m. Tuesday night and will reopen Wednesday morning at 4:30 a.m.  The stair lighting next to the elevators will also be turned off and the stairs will close for your safety.  The south side of the passenger level (Bremerton side) will also be blocked during this time. Passengers may access the terminal from the overhead walkway, the north stairs off Marion Street or the passenger ramp off Alaskan Way. \n",
+				"BulletinSortSeq": 25,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": 3,
+				"RouteName": "Seattle / Bremerton",
+				"WaitTimeNotes": "The peak traffic volumes occur between 4:00pm and 6:30pm. It is advisable for vehicle traffic to arrive 30-45 minutes prior to sailing. For non-peak travel, a minimum of 20 minutes in advance is suggested. <p> Passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}, {
+				"RouteID": 5,
+				"RouteName": "Seattle / Bainbridge Island",
+				"WaitTimeNotes": "The peak commute hours usually begin with the 3:00pm departure through the \n7:00pm sailing with a 30-60 minute advance arrival advised for vehicle traffic. For non-peak travel, a minimum of 20 minutes in advance is recommended. <p> Walk on passengers should arrive at least 15 minutes prior to sailing. ",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 1,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 2,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 3,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 4,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 5,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 6,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 7,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 8,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 9,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 10,
+				"Lat": 47.602501,
+				"Lon": -122.340472
+			}, {
+				"Zm": 11,
+				"Lat": 47.603103,
+				"Lon": -122.335626
+			}, {
+				"Zm": 12,
+				"Lat": 47.602409,
+				"Lon": -122.335626
+			}, {
+				"Zm": 13,
+				"Lat": 47.602293,
+				"Lon": -122.337686
+			}, {
+				"Zm": 14,
+				"Lat": 47.602409,
+				"Lon": -122.338458
+			}, {
+				"Zm": 15,
+				"Lat": 47.601801,
+				"Lon": -122.336999
+			}, {
+				"Zm": 16,
+				"Lat": 47.601743,
+				"Lon": -122.33672
+			}, {
+				"Zm": 17,
+				"Lat": 47.601765,
+				"Lon": -122.336742
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9035,
+			"Lat": 47.60285,
+			"Lon": -122.3382,
+			"Title": "WSF Bainbridge Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/colman/BainHold/BainHold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9036,
+			"Lat": 47.602501,
+			"Lon": -122.339,
+			"Title": "WSF Bremerton Holding South",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/colman/BremHold/BremHold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 18,
+			"TerminalName": "Shaw Island",
+			"Latitude": 48.584792,
+			"Longitude": -122.92965,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "A 1 hour advance arrival is recommended for the first two departures.  For all other sailings, a 30 minute advance arrival is advised. <p> Passengers should arrive at least 15 minutes prior to departure time. ",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 1,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 2,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 3,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 4,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 5,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 6,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 7,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 8,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 9,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 10,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 11,
+				"Lat": 48.584792,
+				"Lon": -122.92965
+			}, {
+				"Zm": 12,
+				"Lat": 48.58245,
+				"Lon": -122.929007
+			}, {
+				"Zm": 13,
+				"Lat": 48.583585,
+				"Lon": -122.929694
+			}, {
+				"Zm": 14,
+				"Lat": 48.584267,
+				"Lon": -122.929608
+			}, {
+				"Zm": 15,
+				"Lat": 48.584466,
+				"Lon": -122.929865
+			}, {
+				"Zm": 16,
+				"Lat": 48.584451,
+				"Lon": -122.929865
+			}, {
+				"Zm": 17,
+				"Lat": 48.58448,
+				"Lon": -122.929844
+			}]
+		},
+		"FerryCameras": []
+	}, {
+		"Terminal": {
+			"TerminalID": 19,
+			"TerminalName": "Sidney B.C.",
+			"Latitude": 48.643114,
+			"Longitude": -123.396739,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "For increased security and immigration processing vehicles leaving Sidney are advised to arrive 60 minutes prior to sailing. Walk on passengers need to arrive 45 minutes in advance.  Vehicle reservations are recommended. Please speak with our Information Agents in Seattle at 1-888-808-7977 or reserve online at: <a href=\"https://secure1.wsdot.wa.gov/ferries/webres/\" class=\"content_text\">Reservations</a>",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 1,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 2,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 3,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 4,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 5,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 6,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 7,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 8,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 9,
+				"Lat": 48.643114,
+				"Lon": -123.396739
+			}, {
+				"Zm": 10,
+				"Lat": 48.643962,
+				"Lon": -123.412062
+			}, {
+				"Zm": 11,
+				"Lat": 48.648045,
+				"Lon": -123.396956
+			}, {
+				"Zm": 12,
+				"Lat": 48.645323,
+				"Lon": -123.399703
+			}, {
+				"Zm": 13,
+				"Lat": 48.644302,
+				"Lon": -123.398329
+			}, {
+				"Zm": 14,
+				"Lat": 48.643735,
+				"Lon": -123.397557
+			}, {
+				"Zm": 15,
+				"Lat": 48.643594,
+				"Lon": -123.397385
+			}, {
+				"Zm": 16,
+				"Lat": 48.643636,
+				"Lon": -123.397364
+			}, {
+				"Zm": 17,
+				"Lat": 48.643608,
+				"Lon": -123.397385
+			}]
+		},
+		"FerryCameras": []
+	}, {
+		"Terminal": {
+			"TerminalID": 20,
+			"TerminalName": "Southworth",
+			"Latitude": 47.513064,
+			"Longitude": -122.495742,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "Commuters may anticipate the first six morning sailings to overload. It is advisable for motorists to arrive 30-45 minutes ahead of the scheduled departure time. For non-peak travel, a minimum of 20 minutes ahead of sailing is recommended. Loading for Vashon bound vehicles will stop 3 minutes prior to sailing. <p> Passenger should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 1,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 2,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 3,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 4,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 5,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 6,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 7,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 8,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 9,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 10,
+				"Lat": 47.513064,
+				"Lon": -122.495742
+			}, {
+				"Zm": 11,
+				"Lat": 47.512744,
+				"Lon": -122.502481
+			}, {
+				"Zm": 12,
+				"Lat": 47.512976,
+				"Lon": -122.501451
+			}, {
+				"Zm": 13,
+				"Lat": 47.512118,
+				"Lon": -122.496825
+			}, {
+				"Zm": 14,
+				"Lat": 47.51199,
+				"Lon": -122.497416
+			}, {
+				"Zm": 15,
+				"Lat": 47.512309,
+				"Lon": -122.496687
+			}, {
+				"Zm": 16,
+				"Lat": 47.51273,
+				"Lon": -122.496108
+			}, {
+				"Zm": 17,
+				"Lat": 47.512954,
+				"Lon": -122.495893
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9039,
+			"Lat": 47.51189,
+			"Lon": -122.4973,
+			"Title": "WSF Southworth Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/southworth/terminal/southworth.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 21,
+			"TerminalName": "Tahlequah",
+			"Latitude": 47.331961,
+			"Longitude": -122.507786,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "Morning departures are busiest leaving Tahlequah with vehicles advised to arrive 20-30 minutes ahead of the scheduled sailing. For non-peak departures, a 20 minute advance arrival is suggested. <p> Walk-on passengers should arrive at least 15 minutes prior to departure time.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 1,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 2,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 3,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 4,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 5,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 6,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 7,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 8,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 9,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 10,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 11,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 12,
+				"Lat": 47.331961,
+				"Lon": -122.507786
+			}, {
+				"Zm": 13,
+				"Lat": 47.333701,
+				"Lon": -122.507628
+			}, {
+				"Zm": 14,
+				"Lat": 47.33277,
+				"Lon": -122.507199
+			}, {
+				"Zm": 15,
+				"Lat": 47.332712,
+				"Lon": -122.507285
+			}, {
+				"Zm": 16,
+				"Lat": 47.332712,
+				"Lon": -122.507307
+			}, {
+				"Zm": 17,
+				"Lat": 47.332705,
+				"Lon": -122.507328
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9045,
+			"Lat": 47.332941,
+			"Lon": -122.506968,
+			"Title": "WSF Tahlequah Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Tahlequah/holding/holding.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 250,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9046,
+			"Lat": 47.333079,
+			"Lon": -122.506957,
+			"Title": "WSF Tahlequah @ SW Tahlequah Rd",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Tahlequah/VMSSign/VMSSign.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 250,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}, {
+		"Terminal": {
+			"TerminalID": 22,
+			"TerminalName": "Vashon Island",
+			"Latitude": 47.51095,
+			"Longitude": -122.463639,
+			"Bulletins": [{
+				"BulletinTitle": "All Routes - Fall Schedule Began Sunday Sept. 23.",
+				"BulletinText": "Washington State Ferries, fall schedule began Sunday Sept. 23. Please check the schedule on line or pick up a purple schedule at the terminal or on the vessels. The peak season surcharge is in effect through Sept. 30. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Faunt/Va/SW - Fall Schedule Changes",
+				"BulletinText": "Washington State Ferries, fall schedule begins this Sunday Sept. 23. There are many five minute changes this schedule including: the summer 4:30 a.m. sailing from Southworth to Vashon and Fauntleroy will be sailing this fall at 4:25 a.m. and the summer weekday 6:05 a.m. sailing from Southworth to Vashon and Fauntleroy will depart at 6 a.m. From Vashon, the 4:50 a.m. summer sailing from Vashon to Fauntleroy will depart this fall at 4:45 a.m. and the 5:45 a.m. summer weekend sailing from Vashon to Southworth moves to 5:40 a.m. for the fall. The 5:20 a.m. sailing from Fauntleroy to Vashon and Southworth moves to 5:15 a.m. this fall. ",
+				"BulletinSortSeq": 13,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "All Routes - Peak season surcharge ends Oct. 1",
+				"BulletinText": "The last day the peak season surcharge will be in effect is Sunday, Sept. 30.  On Monday, Oct. 1, fares will return to their non-peak rates.  Please visit the <a href=\"http://www.wsdot.wa.gov/ferries/fares\" class=\"content_text\">Fares</a> page for more information.\n",
+				"BulletinSortSeq": 14,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}, {
+				"BulletinTitle": "Faunt/Va/SW-Construction Activities at Fauntleroy",
+				"BulletinText": "Construction activities continue on King County's Barton Pump Station Upgrade Project adjacent to the Fauntleroy terminal. Beginning this week customers will notice more construction equipment and activity, with flaggers directing construction traffic in and out of the project site between 7 a.m. and 5:30 p.m. Monday through Friday. Work will be coordinated with busy ferry travel times. For more information please contact Kristine Cramer at kristine.cramer@kingcounty.gov or 206-263-3184, or call the 24-hour project hotline at 206-296-2999.  ",
+				"BulletinSortSeq": 49,
+				"BulletinLastUpdated": new Date(1348633817000)
+			}],
+			"WaitTimes": [{
+				"RouteID": null,
+				"RouteName": null,
+				"WaitTimeNotes": "Leaving Vashon the peak commute hours are between 5:00 a.m. and 10:00 a.m. with a suggested advance arrival time for vehicle traffic of 45-60 minutes. For non-peak travel, a minimum of 20 minutes is suggested. <p> Walk-on passengers should arrive at least 15 minutes prior to sailing.",
+				"WaitTimeLastUpdated": new Date(1348633824000)
+			}],
+			"GISZoomLocations": [{
+				"Zm": 0,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 1,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 2,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 3,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 4,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 5,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 6,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 7,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 8,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 9,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 10,
+				"Lat": 47.51095,
+				"Lon": -122.463639
+			}, {
+				"Zm": 11,
+				"Lat": 47.504396,
+				"Lon": -122.463342
+			}, {
+				"Zm": 12,
+				"Lat": 47.505091,
+				"Lon": -122.464028
+			}, {
+				"Zm": 13,
+				"Lat": 47.508059,
+				"Lon": -122.463866
+			}, {
+				"Zm": 14,
+				"Lat": 47.508918,
+				"Lon": -122.4642
+			}, {
+				"Zm": 15,
+				"Lat": 47.508715,
+				"Lon": -122.4642
+			}, {
+				"Zm": 16,
+				"Lat": 47.508758,
+				"Lon": -122.464243
+			}, {
+				"Zm": 17,
+				"Lat": 47.508867,
+				"Lon": -122.464254
+			}]
+		},
+		"FerryCameras": [{
+			"CamID": 9041,
+			"Lat": 47.507541,
+			"Lon": -122.46291,
+			"Title": "WSF Vashon Hwy & Bunker (North)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00001_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9042,
+			"Lat": 47.507367,
+			"Lon": -122.46284,
+			"Title": "WSF Vashon Hwy & Bunker (South)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00002_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9043,
+			"Lat": 47.505682,
+			"Lon": -122.46173,
+			"Title": "WSF Vashon Hwy & 112th (North)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00004_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}, {
+			"CamID": 9044,
+			"Lat": 47.505512,
+			"Lon": -122.461681,
+			"Title": "WSF Vashon Hwy & 112th (South)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00003_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}]
+	}]
+}

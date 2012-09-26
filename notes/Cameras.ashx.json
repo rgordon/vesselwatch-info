@@ -1,0 +1,584 @@
+{
+	"FeedName": "Ferry Cameras",
+	"AppUrl": "http://www.wsdot.wa.gov/ferries/vesselwatch",
+	"LegendItemList": [{
+		"String": "",
+		"Icon": "./images/camera16.png",
+		"Description": "Camera"
+	}],
+	"FeedContentList": [{
+		"TerminalID": 5,
+		"FerryCamera": {
+			"CamID": 9172,
+			"Lat": 47.974711,
+			"Lon": -122.352462,
+			"Title": "Clinton Uphill",
+			"ImgURL": "http://209.166.88.226/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 5,
+		"FerryCamera": {
+			"CamID": 9173,
+			"Lat": 47.974689,
+			"Lon": -122.352236,
+			"Title": "Clinton Dock",
+			"ImgURL": "http://209.166.88.225/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com ",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 5,
+		"FerryCamera": {
+			"CamID": 9174,
+			"Lat": 47.979695,
+			"Lon": -122.357644,
+			"Title": "Clinton E SR 525",
+			"ImgURL": "http://209.166.85.97/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com ",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 5,
+		"FerryCamera": {
+			"CamID": 9175,
+			"Lat": 47.979681,
+			"Lon": -122.357429,
+			"Title": "Clinton W SR 525",
+			"ImgURL": "http://209.166.85.98/netcam.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 240,
+			"CamOwner": "Whidbey.com",
+			"OwnerURL": "http://www.whidbeytel.com/Community/FerryWeather.ashx?p=37",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 5,
+		"FerryCamera": {
+			"CamID": 9166,
+			"Lat": 47.974546,
+			"Lon": -122.352017,
+			"Title": "WSF Clinton Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/clinton/terminal/clinton.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 3,
+		"FerryCamera": {
+			"CamID": 9040,
+			"Lat": 47.62314,
+			"Lon": -122.5112,
+			"Title": "WSF Bainbridge Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Bainbridge/Bainbridge.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 10,
+		"FerryCamera": {
+			"CamID": 1233,
+			"Lat": 48.5351,
+			"Lon": -123.0066,
+			"Title": "Friday Harbor Ferry ",
+			"ImgURL": "http://www.islandcam.com/camimages/ffcam.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 240,
+			"CamOwner": "Islandcam.com",
+			"OwnerURL": "http://www.islandcam.com/friday_harbor.html",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 15,
+		"FerryCamera": {
+			"CamID": 9171,
+			"Lat": 48.598671,
+			"Lon": -122.945415,
+			"Title": "Orcas Ferry",
+			"ImgURL": "http://www.islandcam.com/camimages/ofcam.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 240,
+			"CamOwner": "Islandcam.com",
+			"OwnerURL": "http://www.islandcam.com/orcas.html",
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 1,
+		"FerryCamera": {
+			"CamID": 9047,
+			"Lat": 48.505975,
+			"Lon": -122.679048,
+			"Title": "WSF Anacortes Ferry Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/terminal/anaterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 1,
+		"FerryCamera": {
+			"CamID": 9048,
+			"Lat": 48.503437,
+			"Lon": -122.679509,
+			"Title": "WSF Anacortes Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/holding/anahold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 1,
+		"FerryCamera": {
+			"CamID": 9049,
+			"Lat": 48.501976,
+			"Lon": -122.679337,
+			"Title": "WSF Anacortes Ferry Terminal Rd",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/anacortes/road/anaroad.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 7,
+		"FerryCamera": {
+			"CamID": 9035,
+			"Lat": 47.60285,
+			"Lon": -122.3382,
+			"Title": "WSF Bainbridge Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/colman/BainHold/BainHold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 7,
+		"FerryCamera": {
+			"CamID": 9036,
+			"Lat": 47.602501,
+			"Lon": -122.339,
+			"Title": "WSF Bremerton Holding South",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/colman/BremHold/BremHold.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 4,
+		"FerryCamera": {
+			"CamID": 9037,
+			"Lat": 47.56265,
+			"Lon": -122.62535,
+			"Title": "WSF Bremerton Holding North",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/bremerton/holding/holding.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 11,
+		"FerryCamera": {
+			"CamID": 9169,
+			"Lat": 48.160022,
+			"Lon": -122.673974,
+			"Title": "WSF Coupeville Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Keystone/terminal/keyterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 11,
+		"FerryCamera": {
+			"CamID": 9170,
+			"Lat": 48.160022,
+			"Lon": -122.673974,
+			"Title": "WSF Coupeville Street",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Keystone/Street/keyStreet.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9155,
+			"Lat": 47.810405,
+			"Lon": -122.383062,
+			"Title": "WSF Edmonds W Dayton St",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104dayton.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9156,
+			"Lat": 47.792528,
+			"Lon": -122.369853,
+			"Title": "WSF Edmonds VMS Sign",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104vms_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9157,
+			"Lat": 47.811747,
+			"Lon": -122.382174,
+			"Title": "WSF Edmonds Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/holding.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9158,
+			"Lat": 47.813279,
+			"Lon": -122.385014,
+			"Title": "WSF Edmonds Vessel",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/vessel.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9159,
+			"Lat": 47.802634,
+			"Lon": -122.383115,
+			"Title": "WSF Edmonds Underpass",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104underpass.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 8,
+		"FerryCamera": {
+			"CamID": 9160,
+			"Lat": 47.802634,
+			"Lon": -122.383115,
+			"Title": "WSF Edmonds Pine",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/edmonds/104pine.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 9,
+		"FerryCamera": {
+			"CamID": 9038,
+			"Lat": 47.5232,
+			"Lon": -122.39359,
+			"Title": "WSF Fauntleroy Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/fauntleroy/terminal/fauntleroy.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 12,
+		"FerryCamera": {
+			"CamID": 9151,
+			"Lat": 47.797124,
+			"Lon": -122.495519,
+			"Title": "WSF Kingston Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/terminal/kingston.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 12,
+		"FerryCamera": {
+			"CamID": 9152,
+			"Lat": 47.80941,
+			"Lon": -122.52564,
+			"Title": "WSF Kingston Ferry Sign East",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/fse/fse.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 12,
+		"FerryCamera": {
+			"CamID": 9153,
+			"Lat": 47.80941,
+			"Lon": -122.52564,
+			"Title": "WSF Kingston Ferry Sign West",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/fsw/fsw.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 12,
+		"FerryCamera": {
+			"CamID": 9154,
+			"Lat": 47.807814,
+			"Lon": -122.516675,
+			"Title": "WSF Kingston Barber",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/kingston/barber/barber.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 14,
+		"FerryCamera": {
+			"CamID": 9161,
+			"Lat": 47.933594,
+			"Lon": -122.306442,
+			"Title": "WSF Mukilteo Clover Ln",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/525atCloverLn/525atCloverLn_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 14,
+		"FerryCamera": {
+			"CamID": 9162,
+			"Lat": 47.928391,
+			"Lon": -122.300497,
+			"Title": "WSF Mukilteo N 525 at 76th",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/N_525at76th/N_525at76th_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 14,
+		"FerryCamera": {
+			"CamID": 9163,
+			"Lat": 47.928391,
+			"Lon": -122.300497,
+			"Title": "WSF Mukilteo S 525 at 76th",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/S_525at76th/S_525at76th_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 14,
+		"FerryCamera": {
+			"CamID": 9164,
+			"Lat": 47.948045,
+			"Lon": -122.30362,
+			"Title": "WSF Mukilteo South Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/Terminal/mukterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 14,
+		"FerryCamera": {
+			"CamID": 9165,
+			"Lat": 47.948244,
+			"Lon": -122.302963,
+			"Title": "WSF Mukilteo North Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Mukilteo/North/North.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 17,
+		"FerryCamera": {
+			"CamID": 9167,
+			"Lat": 48.112086,
+			"Lon": -122.760466,
+			"Title": "WSF Port Townsend Terminal",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/PortTownsend/terminal/ptterm.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 17,
+		"FerryCamera": {
+			"CamID": 9168,
+			"Lat": 48.112086,
+			"Lon": -122.760466,
+			"Title": "WSF Port Townsend Street",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/PortTownsend/Street/ptStreet.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 20,
+		"FerryCamera": {
+			"CamID": 9039,
+			"Lat": 47.51189,
+			"Lon": -122.4973,
+			"Title": "WSF Southworth Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/southworth/terminal/southworth.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 21,
+		"FerryCamera": {
+			"CamID": 9045,
+			"Lat": 47.332941,
+			"Lon": -122.506968,
+			"Title": "WSF Tahlequah Ferry Holding",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Tahlequah/holding/holding.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 250,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 21,
+		"FerryCamera": {
+			"CamID": 9046,
+			"Lat": 47.333079,
+			"Lon": -122.506957,
+			"Title": "WSF Tahlequah @ SW Tahlequah Rd",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/Tahlequah/VMSSign/VMSSign.jpg",
+			"ImgWidth": 320,
+			"ImgHeight": 250,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 22,
+		"FerryCamera": {
+			"CamID": 9041,
+			"Lat": 47.507541,
+			"Lon": -122.46291,
+			"Title": "WSF Vashon Hwy & Bunker (North)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00001_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 22,
+		"FerryCamera": {
+			"CamID": 9042,
+			"Lat": 47.507367,
+			"Lon": -122.46284,
+			"Title": "WSF Vashon Hwy & Bunker (South)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00002_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 22,
+		"FerryCamera": {
+			"CamID": 9043,
+			"Lat": 47.505682,
+			"Lon": -122.46173,
+			"Title": "WSF Vashon Hwy & 112th (North)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00004_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}, {
+		"TerminalID": 22,
+		"FerryCamera": {
+			"CamID": 9044,
+			"Lat": 47.505512,
+			"Lon": -122.461681,
+			"Title": "WSF Vashon Hwy & 112th (South)",
+			"ImgURL": "http://images.wsdot.wa.gov/wsf/vashon//VSHvc00003_wts.jpg",
+			"ImgWidth": 352,
+			"ImgHeight": 261,
+			"CamOwner": null,
+			"OwnerURL": null,
+			"IsActive": true
+		}
+	}]
+}
