@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102D2B9414A40C81003ABF37 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2B8D14A40C81003ABF37 /* CXHTMLDocument.m */; };
+		102D2B9514A40C81003ABF37 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2B8F14A40C81003ABF37 /* CXMLElement_CreationExtensions.m */; };
+		102D2B9614A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2B9114A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.m */; };
+		102D2B9714A40C81003ABF37 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2B9314A40C81003ABF37 /* CXMLNamespaceNode.m */; };
+		102D2BAE14A40F30003ABF37 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2BA914A40F30003ABF37 /* CTidy.m */; };
+		102D2BAF14A40F30003ABF37 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2BAB14A40F30003ABF37 /* CXMLDocument_CreationExtensions.m */; };
+		102D2BB014A40F30003ABF37 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D2BAD14A40F30003ABF37 /* CXMLNode_CreationExtensions.m */; };
+		1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */; };
+		107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 107DACA71217305B00F18A8A /* SoapLiteral.m */; };
+		10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */; };
+		10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */; };
+		10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F93110C0A71008E8718 /* NSData+Base64.m */; };
+		10C72024110C0A71008E8718 /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F95110C0A71008E8718 /* Soap.m */; };
+		10C72025110C0A71008E8718 /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F97110C0A71008E8718 /* SoapArray.m */; };
+		10C72027110C0A71008E8718 /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9C110C0A71008E8718 /* SoapFault.m */; };
+		10C72028110C0A71008E8718 /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9E110C0A71008E8718 /* SoapHandler.m */; };
+		10C72029110C0A71008E8718 /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA0110C0A71008E8718 /* SoapNil.m */; };
+		10C7202A110C0A71008E8718 /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA2110C0A71008E8718 /* SoapObject.m */; };
+		10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA4110C0A71008E8718 /* SoapParameter.m */; };
+		10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA6110C0A71008E8718 /* SoapReachability.m */; };
+		10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA8110C0A71008E8718 /* SoapRequest.m */; };
+		10C7202E110C0A71008E8718 /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAA110C0A71008E8718 /* SoapService.m */; };
+		10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAD110C0A71008E8718 /* CXMLDocument.m */; };
+		10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */; };
+		10C72031110C0A71008E8718 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB1110C0A71008E8718 /* CXMLElement.m */; };
+		10C72032110C0A71008E8718 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB3110C0A71008E8718 /* CXMLNode.m */; };
+		10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */; };
+		10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */; };
+		50632a9835cbee5000000000 /* WSFWSF_x0020_ScheduleExample.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a2c35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.h */; };
+		50632a9935cbee5000000000 /* WSFWSF_x0020_ScheduleExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a2d35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.m */; };
+		50632a9a35cbee5000000000 /* WSFSchedAnnotation.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a2e35cbee3000000000 /* WSFSchedAnnotation.h */; };
+		50632a9b35cbee5000000000 /* WSFArrayOfSchedBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a2f35cbee3000000000 /* WSFArrayOfSchedBriefResponse.h */; };
+		50632a9c35cbee5000000000 /* WSFWSF_x0020_Schedule.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3035cbee3000000000 /* WSFWSF_x0020_Schedule.h */; };
+		50632a9d35cbee5000000000 /* WSFArrayOfSchedTimeAdjResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3135cbee3000000000 /* WSFArrayOfSchedTimeAdjResponse.m */; };
+		50632a9e35cbee5000000000 /* WSFSchedTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3235cbee3000000000 /* WSFSchedTime.m */; };
+		50632a9f35cbee5000000000 /* WSFSchedSailingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3335cbee3000000000 /* WSFSchedSailingResponse.m */; };
+		50632aa035cbee5000000000 /* WSFArrayOfTerminalComboResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3435cbee3000000000 /* WSFArrayOfTerminalComboResponse.m */; };
+		50632aa135cbee5000000000 /* WSFSchedJourn.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3535cbee3000000000 /* WSFSchedJourn.m */; };
+		50632aa235cbee5000000000 /* WSFRouteTodayMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3635cbee3000000000 /* WSFRouteTodayMsg.m */; };
+		50632aa335cbee5000000000 /* WSFSchedTime.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3735cbee3000000000 /* WSFSchedTime.h */; };
+		50632aa435cbee5000000000 /* WSFSchedBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3835cbee3000000000 /* WSFSchedBriefResponse.m */; };
+		50632aa535cbee5000000000 /* WSFSchedTimeTerminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3935cbee3000000000 /* WSFSchedTimeTerminal.m */; };
+		50632aa635cbee5000000000 /* WSFArrayOfRouteBriefAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3a35cbee3000000000 /* WSFArrayOfRouteBriefAlert.h */; };
+		50632aa735cbee5000000000 /* WSFSchedTimeAdjResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3b35cbee3000000000 /* WSFSchedTimeAdjResponse.h */; };
+		50632aa835cbee5000000000 /* WSFRouteResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3c35cbee3000000000 /* WSFRouteResponse.h */; };
+		50632aa935cbee5000000000 /* WSFRouteBriefAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3d35cbee3000000000 /* WSFRouteBriefAlert.h */; };
+		50632aaa35cbee5000000000 /* WSFArrayOfSchedSailingResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3e35cbee3000000000 /* WSFArrayOfSchedSailingResponse.h */; };
+		50632aab35cbee6000000000 /* WSFArrayOfSchedTerminalCombo.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a3f35cbee4000000000 /* WSFArrayOfSchedTerminalCombo.h */; };
+		50632aac35cbee6000000000 /* WSFArrayOfRouteAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4035cbee4000000000 /* WSFArrayOfRouteAlert.h */; };
+		50632aad35cbee6000000000 /* WSFArrayOfInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4135cbee4000000000 /* WSFArrayOfInt.m */; };
+		50632aae35cbee6000000000 /* WSFTerminalResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4235cbee4000000000 /* WSFTerminalResponse.h */; };
+		50632aaf35cbee6000000000 /* WSFArrayOfSchedSailingDateRange.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4335cbee4000000000 /* WSFArrayOfSchedSailingDateRange.h */; };
+		50632ab035cbee6000000000 /* WSFSchedJourn.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4435cbee4000000000 /* WSFSchedJourn.h */; };
+		50632ab135cbee6000000000 /* WSFArrayOfSchedTime.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4535cbee4000000000 /* WSFArrayOfSchedTime.h */; };
+		50632ab235cbee6000000000 /* WSFArrayOfRouteResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4635cbee4000000000 /* WSFArrayOfRouteResponse.h */; };
+		50632ab335cbee6000000000 /* Soap+Prefix.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4735cbee4000000000 /* Soap+Prefix.h */; };
+		50632ab435cbee6000000000 /* WSFArrayOfAlertResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4835cbee4000000000 /* WSFArrayOfAlertResponse.h */; };
+		50632ab535cbee6000000000 /* WSFValidDateRangeResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4935cbee4000000000 /* WSFValidDateRangeResponse.h */; };
+		50632ab635cbee6000000000 /* WSFArrayOfSchedTimeTerminal.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4a35cbee4000000000 /* WSFArrayOfSchedTimeTerminal.h */; };
+		50632ab735cbee6000000000 /* WSFArrayOfSchedRouteBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4b35cbee4000000000 /* WSFArrayOfSchedRouteBriefResponse.m */; };
+		50632ab835cbee6000000000 /* WSFArrayOfTerminalComboResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4c35cbee4000000000 /* WSFArrayOfTerminalComboResponse.h */; };
+		50632ab935cbee6000000000 /* WSFRouteMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4d35cbee4000000000 /* WSFRouteMsg.h */; };
+		50632aba35cbee6000000000 /* WSFArrayOfSchedSailingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4e35cbee4000000000 /* WSFArrayOfSchedSailingResponse.m */; };
+		50632abb35cbee6000000000 /* WSFTerminalComboTodayMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a4f35cbee4000000000 /* WSFTerminalComboTodayMsg.m */; };
+		50632abc35cbee6000000000 /* WSFTerminalResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5035cbee4000000000 /* WSFTerminalResponse.m */; };
+		50632abd35cbee6000000000 /* WSFSchedRouteBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5135cbee4000000000 /* WSFSchedRouteBriefResponse.h */; };
+		50632abe35cbee6000000000 /* WSFArrayOfSchedTimeTerminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5235cbee4000000000 /* WSFArrayOfSchedTimeTerminal.m */; };
+		50632abf35cbee6000000000 /* WSFSchedBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5335cbee4000000000 /* WSFSchedBriefResponse.h */; };
+		50632ac035cbee6000000000 /* WSFSchedMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5435cbee4000000000 /* WSFSchedMsg.m */; };
+		50632ac135cbee6000000000 /* WSFArrayOfSchedSailingDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5535cbee4000000000 /* WSFArrayOfSchedSailingDateRange.m */; };
+		50632ac235cbee6000000000 /* WSFSchedTimeAdjResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5635cbee4000000000 /* WSFSchedTimeAdjResponse.m */; };
+		50632ac335cbee6000000000 /* WSFArrayOfSchedTerminalCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5735cbee4000000000 /* WSFArrayOfSchedTerminalCombo.m */; };
+		50632ac435cbee6000000000 /* WSFSchedSailingDateRange.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5835cbee4000000000 /* WSFSchedSailingDateRange.h */; };
+		50632ac535cbee6000000000 /* WSFRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5935cbee4000000000 /* WSFRouteResponse.m */; };
+		50632ac635cbee6000000000 /* WSFRouteBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5a35cbee4000000000 /* WSFRouteBriefResponse.m */; };
+		50632ac735cbee6000000000 /* WSFArrayOfSchedBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5b35cbee4000000000 /* WSFArrayOfSchedBriefResponse.m */; };
+		50632ac835cbee6000000000 /* WSFTerminalComboResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5c35cbee4000000000 /* WSFTerminalComboResponse.h */; };
+		50632ac935cbee6000000000 /* WSFRouteBriefMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5d35cbee4000000000 /* WSFRouteBriefMsg.h */; };
+		50632aca35cbee6000000000 /* WSFRouteBriefMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5e35cbee4000000000 /* WSFRouteBriefMsg.m */; };
+		50632acb35cbee6000000000 /* WSFSchedTerminalCombo.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a5f35cbee4000000000 /* WSFSchedTerminalCombo.h */; };
+		50632acc35cbee6000000000 /* WSFSchedMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6035cbee4000000000 /* WSFSchedMsg.h */; };
+		50632acd35cbee6000000000 /* WSFRouteAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6135cbee4000000000 /* WSFRouteAlert.h */; };
+		50632ace35cbee6000000000 /* WSFArrayOfSchedJourn.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6235cbee4000000000 /* WSFArrayOfSchedJourn.m */; };
+		50632acf35cbee6000000000 /* WSFArrayOfTerminalResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6335cbee4000000000 /* WSFArrayOfTerminalResponse.m */; };
+		50632ad035cbee6000000000 /* WSFSchedSailingDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6435cbee4000000000 /* WSFSchedSailingDateRange.m */; };
+		50632ad135cbee6000000000 /* WSFRouteAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6535cbee4000000000 /* WSFRouteAlert.m */; };
+		50632ad235cbee6000000000 /* WSFServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6635cbee4000000000 /* WSFServices.m */; };
+		50632ad335cbee6000000000 /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6735cbee4000000000 /* Soap+Prefix.m */; };
+		50632ad435cbee6000000000 /* WSFTripDateMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6835cbee4000000000 /* WSFTripDateMsg.h */; };
+		50632ad535cbee6000000000 /* WSFArrayOfAlertResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6935cbee4000000000 /* WSFArrayOfAlertResponse.m */; };
+		50632ad635cbee6000000000 /* WSFRouteBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6a35cbee4000000000 /* WSFRouteBriefResponse.h */; };
+		50632ad735cbee6000000000 /* WSFAPIAccessHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6b35cbee4000000000 /* WSFAPIAccessHeader.m */; };
+		50632ad835cbee6000000000 /* WSFArrayOfRouteBriefAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6c35cbee4000000000 /* WSFArrayOfRouteBriefAlert.m */; };
+		50632ad935cbee6000000000 /* WSFArrayOfSchedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6d35cbee4000000000 /* WSFArrayOfSchedAnnotation.m */; };
+		50632ada35cbee6000000000 /* WSFArrayOfSchedAnnotation.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6e35cbee4000000000 /* WSFArrayOfSchedAnnotation.h */; };
+		50632adb35cbee6000000000 /* WSFArrayOfRouteAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a6f35cbee4000000000 /* WSFArrayOfRouteAlert.m */; };
+		50632adc35cbee6000000000 /* WSFSchedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7035cbee4000000000 /* WSFSchedAnnotation.m */; };
+		50632add35cbee6000000000 /* WSFArrayOfSchedTimeAdjResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7135cbee4000000000 /* WSFArrayOfSchedTimeAdjResponse.h */; };
+		50632ade35cbee6000000000 /* WSFArrayOfString.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7235cbee4000000000 /* WSFArrayOfString.h */; };
+		50632adf35cbee6000000000 /* WSFSchedResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7335cbee4000000000 /* WSFSchedResponse.h */; };
+		50632ae035cbee6000000000 /* WSFSchedTerminalCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7435cbee4000000000 /* WSFSchedTerminalCombo.m */; };
+		50632ae135cbee6000000000 /* WSFServices.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7535cbee5000000000 /* WSFServices.h */; };
+		50632ae235cbee6000000000 /* WSFTerminalMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7635cbee5000000000 /* WSFTerminalMsg.m */; };
+		50632ae335cbee6000000000 /* WSFSchedRouteMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7735cbee5000000000 /* WSFSchedRouteMsg.h */; };
+		50632ae435cbee6000000000 /* WSFArrayOfRouteBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7835cbee5000000000 /* WSFArrayOfRouteBriefResponse.m */; };
+		50632ae535cbee6000000000 /* WSFValidDateRangeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7935cbee5000000000 /* WSFValidDateRangeResponse.m */; };
+		50632ae635cbee6000000000 /* WSFWSF_x0020_Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7a35cbee5000000000 /* WSFWSF_x0020_Schedule.m */; };
+		50632ae735cbee6000000000 /* WSFRouteTodayMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7b35cbee5000000000 /* WSFRouteTodayMsg.h */; };
+		50632ae835cbee6000000000 /* WSFSchedTimeTerminal.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7c35cbee5000000000 /* WSFSchedTimeTerminal.h */; };
+		50632ae935cbee6000000000 /* WSFRouteBriefAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7d35cbee5000000000 /* WSFRouteBriefAlert.m */; };
+		50632aea35cbee6000000000 /* WSFAlertResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7e35cbee5000000000 /* WSFAlertResponse.h */; };
+		50632aeb35cbee6000000000 /* WSFRouteMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a7f35cbee5000000000 /* WSFRouteMsg.m */; };
+		50632aec35cbee6000000000 /* WSFSchedRouteMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8035cbee5000000000 /* WSFSchedRouteMsg.m */; };
+		50632aed35cbee6000000000 /* WSFSchedRouteBriefResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8135cbee5000000000 /* WSFSchedRouteBriefResponse.m */; };
+		50632aee35cbee6000000000 /* WSFSchedRouteAdj.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8235cbee5000000000 /* WSFSchedRouteAdj.h */; };
+		50632aef35cbee6000000000 /* WSFTerminalComboTodayMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8335cbee5000000000 /* WSFTerminalComboTodayMsg.h */; };
+		50632af035cbee6000000000 /* WSFArrayOfRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8435cbee5000000000 /* WSFArrayOfRouteResponse.m */; };
+		50632af135cbee6000000000 /* WSFArrayOfSchedJourn.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8535cbee5000000000 /* WSFArrayOfSchedJourn.h */; };
+		50632af235cbee6000000000 /* WSFArrayOfTerminalResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8635cbee5000000000 /* WSFArrayOfTerminalResponse.h */; };
+		50632af335cbee7000000000 /* WSFAPIAccessHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8735cbee5000000000 /* WSFAPIAccessHeader.h */; };
+		50632af435cbee7000000000 /* WSFSchedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8835cbee5000000000 /* WSFSchedResponse.m */; };
+		50632af535cbee7000000000 /* WSFArrayOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8935cbee5000000000 /* WSFArrayOfString.m */; };
+		50632af635cbee7000000000 /* WSFTerminalComboMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8a35cbee5000000000 /* WSFTerminalComboMsg.m */; };
+		50632af735cbee7000000000 /* WSFTerminalComboMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8b35cbee5000000000 /* WSFTerminalComboMsg.h */; };
+		50632af835cbee7000000000 /* WSFSchedRouteAdj.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8c35cbee5000000000 /* WSFSchedRouteAdj.m */; };
+		50632af935cbee7000000000 /* WSFArrayOfInt.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8d35cbee5000000000 /* WSFArrayOfInt.h */; };
+		50632afa35cbee7000000000 /* WSFArrayOfRouteBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8e35cbee5000000000 /* WSFArrayOfRouteBriefResponse.h */; };
+		50632afb35cbee7000000000 /* WSFArrayOfSchedRouteAdj.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a8f35cbee5000000000 /* WSFArrayOfSchedRouteAdj.h */; };
+		50632afc35cbee7000000000 /* WSFArrayOfSchedTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9035cbee5000000000 /* WSFArrayOfSchedTime.m */; };
+		50632afd35cbee7000000000 /* WSFTerminalMsg.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9135cbee5000000000 /* WSFTerminalMsg.h */; };
+		50632afe35cbee7000000000 /* WSFSchedSailingResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9235cbee5000000000 /* WSFSchedSailingResponse.h */; };
+		50632aff35cbee7000000000 /* WSFAlertResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9335cbee5000000000 /* WSFAlertResponse.m */; };
+		50632b0035cbee7000000000 /* WSFTripDateMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9435cbee5000000000 /* WSFTripDateMsg.m */; };
+		50632b0135cbee7000000000 /* WSFTerminalComboResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9535cbee5000000000 /* WSFTerminalComboResponse.m */; };
+		50632b0235cbee7000000000 /* WSFArrayOfSchedRouteAdj.m in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9635cbee5000000000 /* WSFArrayOfSchedRouteAdj.m */; };
+		50632b0335cbee7000000000 /* WSFArrayOfSchedRouteBriefResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 50632a9735cbee5000000000 /* WSFArrayOfSchedRouteBriefResponse.h */; };
+
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		102D2B8C14A40C81003ABF37 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		102D2B8D14A40C81003ABF37 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		102D2B8E14A40C81003ABF37 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		102D2B8F14A40C81003ABF37 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		102D2B9014A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		102D2B9114A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		102D2B9214A40C81003ABF37 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		102D2B9314A40C81003ABF37 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		102D2BA814A40F30003ABF37 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		102D2BA914A40F30003ABF37 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		102D2BAA14A40F30003ABF37 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		102D2BAB14A40F30003ABF37 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		102D2BAC14A40F30003ABF37 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		102D2BAD14A40F30003ABF37 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		107DACA71217305B00F18A8A /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		107DACA81217305B00F18A8A /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudzCExamplesAppDelegate.m; sourceTree = "<group>"; };
+		10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamplesAppDelegate.h; sourceTree = "<group>"; };
+		10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		10C71F92110C0A71008E8718 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		10C71F93110C0A71008E8718 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		10C71F94110C0A71008E8718 /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		10C71F95110C0A71008E8718 /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		10C71F96110C0A71008E8718 /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		10C71F97110C0A71008E8718 /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		10C71F98110C0A71008E8718 /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		10C71F9B110C0A71008E8718 /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		10C71F9C110C0A71008E8718 /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		10C71F9D110C0A71008E8718 /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		10C71F9E110C0A71008E8718 /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		10C71F9F110C0A71008E8718 /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		10C71FA0110C0A71008E8718 /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		10C71FA1110C0A71008E8718 /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		10C71FA2110C0A71008E8718 /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		10C71FA3110C0A71008E8718 /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		10C71FA4110C0A71008E8718 /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		10C71FA5110C0A71008E8718 /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		10C71FA6110C0A71008E8718 /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		10C71FA7110C0A71008E8718 /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		10C71FA8110C0A71008E8718 /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		10C71FA9110C0A71008E8718 /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		10C71FAA110C0A71008E8718 /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		10C71FAC110C0A71008E8718 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		10C71FAD110C0A71008E8718 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB0110C0A71008E8718 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		10C71FB1110C0A71008E8718 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		10C71FB2110C0A71008E8718 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		10C71FB3110C0A71008E8718 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		10C71FB8110C0A71008E8718 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		50632a2c35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFWSF_x0020_ScheduleExample.h"; sourceTree = "<group>"; };
+
+		50632a2d35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFWSF_x0020_ScheduleExample.m"; sourceTree = "<group>"; };
+
+		50632a2e35cbee3000000000 /* WSFSchedAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedAnnotation.h"; sourceTree = "<group>"; };
+		50632a2f35cbee3000000000 /* WSFArrayOfSchedBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedBriefResponse.h"; sourceTree = "<group>"; };
+		50632a3035cbee3000000000 /* WSFWSF_x0020_Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFWSF_x0020_Schedule.h"; sourceTree = "<group>"; };
+		50632a3135cbee3000000000 /* WSFArrayOfSchedTimeAdjResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedTimeAdjResponse.m"; sourceTree = "<group>"; };
+		50632a3235cbee3000000000 /* WSFSchedTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedTime.m"; sourceTree = "<group>"; };
+		50632a3335cbee3000000000 /* WSFSchedSailingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedSailingResponse.m"; sourceTree = "<group>"; };
+		50632a3435cbee3000000000 /* WSFArrayOfTerminalComboResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfTerminalComboResponse.m"; sourceTree = "<group>"; };
+		50632a3535cbee3000000000 /* WSFSchedJourn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedJourn.m"; sourceTree = "<group>"; };
+		50632a3635cbee3000000000 /* WSFRouteTodayMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteTodayMsg.m"; sourceTree = "<group>"; };
+		50632a3735cbee3000000000 /* WSFSchedTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedTime.h"; sourceTree = "<group>"; };
+		50632a3835cbee3000000000 /* WSFSchedBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedBriefResponse.m"; sourceTree = "<group>"; };
+		50632a3935cbee3000000000 /* WSFSchedTimeTerminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedTimeTerminal.m"; sourceTree = "<group>"; };
+		50632a3a35cbee3000000000 /* WSFArrayOfRouteBriefAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfRouteBriefAlert.h"; sourceTree = "<group>"; };
+		50632a3b35cbee3000000000 /* WSFSchedTimeAdjResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedTimeAdjResponse.h"; sourceTree = "<group>"; };
+		50632a3c35cbee3000000000 /* WSFRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteResponse.h"; sourceTree = "<group>"; };
+		50632a3d35cbee3000000000 /* WSFRouteBriefAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteBriefAlert.h"; sourceTree = "<group>"; };
+		50632a3e35cbee3000000000 /* WSFArrayOfSchedSailingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedSailingResponse.h"; sourceTree = "<group>"; };
+		50632a3f35cbee4000000000 /* WSFArrayOfSchedTerminalCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedTerminalCombo.h"; sourceTree = "<group>"; };
+		50632a4035cbee4000000000 /* WSFArrayOfRouteAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfRouteAlert.h"; sourceTree = "<group>"; };
+		50632a4135cbee4000000000 /* WSFArrayOfInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfInt.m"; sourceTree = "<group>"; };
+		50632a4235cbee4000000000 /* WSFTerminalResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTerminalResponse.h"; sourceTree = "<group>"; };
+		50632a4335cbee4000000000 /* WSFArrayOfSchedSailingDateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedSailingDateRange.h"; sourceTree = "<group>"; };
+		50632a4435cbee4000000000 /* WSFSchedJourn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedJourn.h"; sourceTree = "<group>"; };
+		50632a4535cbee4000000000 /* WSFArrayOfSchedTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedTime.h"; sourceTree = "<group>"; };
+		50632a4635cbee4000000000 /* WSFArrayOfRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfRouteResponse.h"; sourceTree = "<group>"; };
+		50632a4735cbee4000000000 /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		50632a4835cbee4000000000 /* WSFArrayOfAlertResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfAlertResponse.h"; sourceTree = "<group>"; };
+		50632a4935cbee4000000000 /* WSFValidDateRangeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFValidDateRangeResponse.h"; sourceTree = "<group>"; };
+		50632a4a35cbee4000000000 /* WSFArrayOfSchedTimeTerminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedTimeTerminal.h"; sourceTree = "<group>"; };
+		50632a4b35cbee4000000000 /* WSFArrayOfSchedRouteBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedRouteBriefResponse.m"; sourceTree = "<group>"; };
+		50632a4c35cbee4000000000 /* WSFArrayOfTerminalComboResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfTerminalComboResponse.h"; sourceTree = "<group>"; };
+		50632a4d35cbee4000000000 /* WSFRouteMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteMsg.h"; sourceTree = "<group>"; };
+		50632a4e35cbee4000000000 /* WSFArrayOfSchedSailingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedSailingResponse.m"; sourceTree = "<group>"; };
+		50632a4f35cbee4000000000 /* WSFTerminalComboTodayMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTerminalComboTodayMsg.m"; sourceTree = "<group>"; };
+		50632a5035cbee4000000000 /* WSFTerminalResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTerminalResponse.m"; sourceTree = "<group>"; };
+		50632a5135cbee4000000000 /* WSFSchedRouteBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedRouteBriefResponse.h"; sourceTree = "<group>"; };
+		50632a5235cbee4000000000 /* WSFArrayOfSchedTimeTerminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedTimeTerminal.m"; sourceTree = "<group>"; };
+		50632a5335cbee4000000000 /* WSFSchedBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedBriefResponse.h"; sourceTree = "<group>"; };
+		50632a5435cbee4000000000 /* WSFSchedMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedMsg.m"; sourceTree = "<group>"; };
+		50632a5535cbee4000000000 /* WSFArrayOfSchedSailingDateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedSailingDateRange.m"; sourceTree = "<group>"; };
+		50632a5635cbee4000000000 /* WSFSchedTimeAdjResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedTimeAdjResponse.m"; sourceTree = "<group>"; };
+		50632a5735cbee4000000000 /* WSFArrayOfSchedTerminalCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedTerminalCombo.m"; sourceTree = "<group>"; };
+		50632a5835cbee4000000000 /* WSFSchedSailingDateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedSailingDateRange.h"; sourceTree = "<group>"; };
+		50632a5935cbee4000000000 /* WSFRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteResponse.m"; sourceTree = "<group>"; };
+		50632a5a35cbee4000000000 /* WSFRouteBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteBriefResponse.m"; sourceTree = "<group>"; };
+		50632a5b35cbee4000000000 /* WSFArrayOfSchedBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedBriefResponse.m"; sourceTree = "<group>"; };
+		50632a5c35cbee4000000000 /* WSFTerminalComboResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTerminalComboResponse.h"; sourceTree = "<group>"; };
+		50632a5d35cbee4000000000 /* WSFRouteBriefMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteBriefMsg.h"; sourceTree = "<group>"; };
+		50632a5e35cbee4000000000 /* WSFRouteBriefMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteBriefMsg.m"; sourceTree = "<group>"; };
+		50632a5f35cbee4000000000 /* WSFSchedTerminalCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedTerminalCombo.h"; sourceTree = "<group>"; };
+		50632a6035cbee4000000000 /* WSFSchedMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedMsg.h"; sourceTree = "<group>"; };
+		50632a6135cbee4000000000 /* WSFRouteAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteAlert.h"; sourceTree = "<group>"; };
+		50632a6235cbee4000000000 /* WSFArrayOfSchedJourn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedJourn.m"; sourceTree = "<group>"; };
+		50632a6335cbee4000000000 /* WSFArrayOfTerminalResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfTerminalResponse.m"; sourceTree = "<group>"; };
+		50632a6435cbee4000000000 /* WSFSchedSailingDateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedSailingDateRange.m"; sourceTree = "<group>"; };
+		50632a6535cbee4000000000 /* WSFRouteAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteAlert.m"; sourceTree = "<group>"; };
+		50632a6635cbee4000000000 /* WSFServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFServices.m"; sourceTree = "<group>"; };
+		50632a6735cbee4000000000 /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		50632a6835cbee4000000000 /* WSFTripDateMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTripDateMsg.h"; sourceTree = "<group>"; };
+		50632a6935cbee4000000000 /* WSFArrayOfAlertResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfAlertResponse.m"; sourceTree = "<group>"; };
+		50632a6a35cbee4000000000 /* WSFRouteBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteBriefResponse.h"; sourceTree = "<group>"; };
+		50632a6b35cbee4000000000 /* WSFAPIAccessHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFAPIAccessHeader.m"; sourceTree = "<group>"; };
+		50632a6c35cbee4000000000 /* WSFArrayOfRouteBriefAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfRouteBriefAlert.m"; sourceTree = "<group>"; };
+		50632a6d35cbee4000000000 /* WSFArrayOfSchedAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedAnnotation.m"; sourceTree = "<group>"; };
+		50632a6e35cbee4000000000 /* WSFArrayOfSchedAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedAnnotation.h"; sourceTree = "<group>"; };
+		50632a6f35cbee4000000000 /* WSFArrayOfRouteAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfRouteAlert.m"; sourceTree = "<group>"; };
+		50632a7035cbee4000000000 /* WSFSchedAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedAnnotation.m"; sourceTree = "<group>"; };
+		50632a7135cbee4000000000 /* WSFArrayOfSchedTimeAdjResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedTimeAdjResponse.h"; sourceTree = "<group>"; };
+		50632a7235cbee4000000000 /* WSFArrayOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfString.h"; sourceTree = "<group>"; };
+		50632a7335cbee4000000000 /* WSFSchedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedResponse.h"; sourceTree = "<group>"; };
+		50632a7435cbee4000000000 /* WSFSchedTerminalCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedTerminalCombo.m"; sourceTree = "<group>"; };
+		50632a7535cbee5000000000 /* WSFServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFServices.h"; sourceTree = "<group>"; };
+		50632a7635cbee5000000000 /* WSFTerminalMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTerminalMsg.m"; sourceTree = "<group>"; };
+		50632a7735cbee5000000000 /* WSFSchedRouteMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedRouteMsg.h"; sourceTree = "<group>"; };
+		50632a7835cbee5000000000 /* WSFArrayOfRouteBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfRouteBriefResponse.m"; sourceTree = "<group>"; };
+		50632a7935cbee5000000000 /* WSFValidDateRangeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFValidDateRangeResponse.m"; sourceTree = "<group>"; };
+		50632a7a35cbee5000000000 /* WSFWSF_x0020_Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFWSF_x0020_Schedule.m"; sourceTree = "<group>"; };
+		50632a7b35cbee5000000000 /* WSFRouteTodayMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFRouteTodayMsg.h"; sourceTree = "<group>"; };
+		50632a7c35cbee5000000000 /* WSFSchedTimeTerminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedTimeTerminal.h"; sourceTree = "<group>"; };
+		50632a7d35cbee5000000000 /* WSFRouteBriefAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteBriefAlert.m"; sourceTree = "<group>"; };
+		50632a7e35cbee5000000000 /* WSFAlertResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFAlertResponse.h"; sourceTree = "<group>"; };
+		50632a7f35cbee5000000000 /* WSFRouteMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFRouteMsg.m"; sourceTree = "<group>"; };
+		50632a8035cbee5000000000 /* WSFSchedRouteMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedRouteMsg.m"; sourceTree = "<group>"; };
+		50632a8135cbee5000000000 /* WSFSchedRouteBriefResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedRouteBriefResponse.m"; sourceTree = "<group>"; };
+		50632a8235cbee5000000000 /* WSFSchedRouteAdj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedRouteAdj.h"; sourceTree = "<group>"; };
+		50632a8335cbee5000000000 /* WSFTerminalComboTodayMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTerminalComboTodayMsg.h"; sourceTree = "<group>"; };
+		50632a8435cbee5000000000 /* WSFArrayOfRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfRouteResponse.m"; sourceTree = "<group>"; };
+		50632a8535cbee5000000000 /* WSFArrayOfSchedJourn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedJourn.h"; sourceTree = "<group>"; };
+		50632a8635cbee5000000000 /* WSFArrayOfTerminalResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfTerminalResponse.h"; sourceTree = "<group>"; };
+		50632a8735cbee5000000000 /* WSFAPIAccessHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFAPIAccessHeader.h"; sourceTree = "<group>"; };
+		50632a8835cbee5000000000 /* WSFSchedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedResponse.m"; sourceTree = "<group>"; };
+		50632a8935cbee5000000000 /* WSFArrayOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfString.m"; sourceTree = "<group>"; };
+		50632a8a35cbee5000000000 /* WSFTerminalComboMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTerminalComboMsg.m"; sourceTree = "<group>"; };
+		50632a8b35cbee5000000000 /* WSFTerminalComboMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTerminalComboMsg.h"; sourceTree = "<group>"; };
+		50632a8c35cbee5000000000 /* WSFSchedRouteAdj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFSchedRouteAdj.m"; sourceTree = "<group>"; };
+		50632a8d35cbee5000000000 /* WSFArrayOfInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfInt.h"; sourceTree = "<group>"; };
+		50632a8e35cbee5000000000 /* WSFArrayOfRouteBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfRouteBriefResponse.h"; sourceTree = "<group>"; };
+		50632a8f35cbee5000000000 /* WSFArrayOfSchedRouteAdj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedRouteAdj.h"; sourceTree = "<group>"; };
+		50632a9035cbee5000000000 /* WSFArrayOfSchedTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedTime.m"; sourceTree = "<group>"; };
+		50632a9135cbee5000000000 /* WSFTerminalMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFTerminalMsg.h"; sourceTree = "<group>"; };
+		50632a9235cbee5000000000 /* WSFSchedSailingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFSchedSailingResponse.h"; sourceTree = "<group>"; };
+		50632a9335cbee5000000000 /* WSFAlertResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFAlertResponse.m"; sourceTree = "<group>"; };
+		50632a9435cbee5000000000 /* WSFTripDateMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTripDateMsg.m"; sourceTree = "<group>"; };
+		50632a9535cbee5000000000 /* WSFTerminalComboResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFTerminalComboResponse.m"; sourceTree = "<group>"; };
+		50632a9635cbee5000000000 /* WSFArrayOfSchedRouteAdj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSFArrayOfSchedRouteAdj.m"; sourceTree = "<group>"; };
+		50632a9735cbee5000000000 /* WSFArrayOfSchedRouteBriefResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSFArrayOfSchedRouteBriefResponse.h"; sourceTree = "<group>"; };
+
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SudzCExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudzCExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamples_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SudzCExamples-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1027CDDE110CDB4A00147F52 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				50632a2c35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.h */,				50632a2d35cbee3000000000 /* WSFWSF_x0020_ScheduleExample.m */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		10C71DC8110B5D8E008E8718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */,
+				10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		10C71EBB110C0A71008E8718 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1027CDDE110CDB4A00147F52 /* Examples */,
+				10C71EBC110C0A71008E8718 /* Generated */,
+				10C71F91110C0A71008E8718 /* Soap */,
+				10C71FAB110C0A71008E8718 /* TouchXML */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		10C71EBC110C0A71008E8718 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				50632a2e35cbee3000000000 /* WSFSchedAnnotation.h */,
+				50632a2f35cbee3000000000 /* WSFArrayOfSchedBriefResponse.h */,
+				50632a3035cbee3000000000 /* WSFWSF_x0020_Schedule.h */,
+				50632a3135cbee3000000000 /* WSFArrayOfSchedTimeAdjResponse.m */,
+				50632a3235cbee3000000000 /* WSFSchedTime.m */,
+				50632a3335cbee3000000000 /* WSFSchedSailingResponse.m */,
+				50632a3435cbee3000000000 /* WSFArrayOfTerminalComboResponse.m */,
+				50632a3535cbee3000000000 /* WSFSchedJourn.m */,
+				50632a3635cbee3000000000 /* WSFRouteTodayMsg.m */,
+				50632a3735cbee3000000000 /* WSFSchedTime.h */,
+				50632a3835cbee3000000000 /* WSFSchedBriefResponse.m */,
+				50632a3935cbee3000000000 /* WSFSchedTimeTerminal.m */,
+				50632a3a35cbee3000000000 /* WSFArrayOfRouteBriefAlert.h */,
+				50632a3b35cbee3000000000 /* WSFSchedTimeAdjResponse.h */,
+				50632a3c35cbee3000000000 /* WSFRouteResponse.h */,
+				50632a3d35cbee3000000000 /* WSFRouteBriefAlert.h */,
+				50632a3e35cbee3000000000 /* WSFArrayOfSchedSailingResponse.h */,
+				50632a3f35cbee4000000000 /* WSFArrayOfSchedTerminalCombo.h */,
+				50632a4035cbee4000000000 /* WSFArrayOfRouteAlert.h */,
+				50632a4135cbee4000000000 /* WSFArrayOfInt.m */,
+				50632a4235cbee4000000000 /* WSFTerminalResponse.h */,
+				50632a4335cbee4000000000 /* WSFArrayOfSchedSailingDateRange.h */,
+				50632a4435cbee4000000000 /* WSFSchedJourn.h */,
+				50632a4535cbee4000000000 /* WSFArrayOfSchedTime.h */,
+				50632a4635cbee4000000000 /* WSFArrayOfRouteResponse.h */,
+				50632a4735cbee4000000000 /* Soap+Prefix.h */,
+				50632a4835cbee4000000000 /* WSFArrayOfAlertResponse.h */,
+				50632a4935cbee4000000000 /* WSFValidDateRangeResponse.h */,
+				50632a4a35cbee4000000000 /* WSFArrayOfSchedTimeTerminal.h */,
+				50632a4b35cbee4000000000 /* WSFArrayOfSchedRouteBriefResponse.m */,
+				50632a4c35cbee4000000000 /* WSFArrayOfTerminalComboResponse.h */,
+				50632a4d35cbee4000000000 /* WSFRouteMsg.h */,
+				50632a4e35cbee4000000000 /* WSFArrayOfSchedSailingResponse.m */,
+				50632a4f35cbee4000000000 /* WSFTerminalComboTodayMsg.m */,
+				50632a5035cbee4000000000 /* WSFTerminalResponse.m */,
+				50632a5135cbee4000000000 /* WSFSchedRouteBriefResponse.h */,
+				50632a5235cbee4000000000 /* WSFArrayOfSchedTimeTerminal.m */,
+				50632a5335cbee4000000000 /* WSFSchedBriefResponse.h */,
+				50632a5435cbee4000000000 /* WSFSchedMsg.m */,
+				50632a5535cbee4000000000 /* WSFArrayOfSchedSailingDateRange.m */,
+				50632a5635cbee4000000000 /* WSFSchedTimeAdjResponse.m */,
+				50632a5735cbee4000000000 /* WSFArrayOfSchedTerminalCombo.m */,
+				50632a5835cbee4000000000 /* WSFSchedSailingDateRange.h */,
+				50632a5935cbee4000000000 /* WSFRouteResponse.m */,
+				50632a5a35cbee4000000000 /* WSFRouteBriefResponse.m */,
+				50632a5b35cbee4000000000 /* WSFArrayOfSchedBriefResponse.m */,
+				50632a5c35cbee4000000000 /* WSFTerminalComboResponse.h */,
+				50632a5d35cbee4000000000 /* WSFRouteBriefMsg.h */,
+				50632a5e35cbee4000000000 /* WSFRouteBriefMsg.m */,
+				50632a5f35cbee4000000000 /* WSFSchedTerminalCombo.h */,
+				50632a6035cbee4000000000 /* WSFSchedMsg.h */,
+				50632a6135cbee4000000000 /* WSFRouteAlert.h */,
+				50632a6235cbee4000000000 /* WSFArrayOfSchedJourn.m */,
+				50632a6335cbee4000000000 /* WSFArrayOfTerminalResponse.m */,
+				50632a6435cbee4000000000 /* WSFSchedSailingDateRange.m */,
+				50632a6535cbee4000000000 /* WSFRouteAlert.m */,
+				50632a6635cbee4000000000 /* WSFServices.m */,
+				50632a6735cbee4000000000 /* Soap+Prefix.m */,
+				50632a6835cbee4000000000 /* WSFTripDateMsg.h */,
+				50632a6935cbee4000000000 /* WSFArrayOfAlertResponse.m */,
+				50632a6a35cbee4000000000 /* WSFRouteBriefResponse.h */,
+				50632a6b35cbee4000000000 /* WSFAPIAccessHeader.m */,
+				50632a6c35cbee4000000000 /* WSFArrayOfRouteBriefAlert.m */,
+				50632a6d35cbee4000000000 /* WSFArrayOfSchedAnnotation.m */,
+				50632a6e35cbee4000000000 /* WSFArrayOfSchedAnnotation.h */,
+				50632a6f35cbee4000000000 /* WSFArrayOfRouteAlert.m */,
+				50632a7035cbee4000000000 /* WSFSchedAnnotation.m */,
+				50632a7135cbee4000000000 /* WSFArrayOfSchedTimeAdjResponse.h */,
+				50632a7235cbee4000000000 /* WSFArrayOfString.h */,
+				50632a7335cbee4000000000 /* WSFSchedResponse.h */,
+				50632a7435cbee4000000000 /* WSFSchedTerminalCombo.m */,
+				50632a7535cbee5000000000 /* WSFServices.h */,
+				50632a7635cbee5000000000 /* WSFTerminalMsg.m */,
+				50632a7735cbee5000000000 /* WSFSchedRouteMsg.h */,
+				50632a7835cbee5000000000 /* WSFArrayOfRouteBriefResponse.m */,
+				50632a7935cbee5000000000 /* WSFValidDateRangeResponse.m */,
+				50632a7a35cbee5000000000 /* WSFWSF_x0020_Schedule.m */,
+				50632a7b35cbee5000000000 /* WSFRouteTodayMsg.h */,
+				50632a7c35cbee5000000000 /* WSFSchedTimeTerminal.h */,
+				50632a7d35cbee5000000000 /* WSFRouteBriefAlert.m */,
+				50632a7e35cbee5000000000 /* WSFAlertResponse.h */,
+				50632a7f35cbee5000000000 /* WSFRouteMsg.m */,
+				50632a8035cbee5000000000 /* WSFSchedRouteMsg.m */,
+				50632a8135cbee5000000000 /* WSFSchedRouteBriefResponse.m */,
+				50632a8235cbee5000000000 /* WSFSchedRouteAdj.h */,
+				50632a8335cbee5000000000 /* WSFTerminalComboTodayMsg.h */,
+				50632a8435cbee5000000000 /* WSFArrayOfRouteResponse.m */,
+				50632a8535cbee5000000000 /* WSFArrayOfSchedJourn.h */,
+				50632a8635cbee5000000000 /* WSFArrayOfTerminalResponse.h */,
+				50632a8735cbee5000000000 /* WSFAPIAccessHeader.h */,
+				50632a8835cbee5000000000 /* WSFSchedResponse.m */,
+				50632a8935cbee5000000000 /* WSFArrayOfString.m */,
+				50632a8a35cbee5000000000 /* WSFTerminalComboMsg.m */,
+				50632a8b35cbee5000000000 /* WSFTerminalComboMsg.h */,
+				50632a8c35cbee5000000000 /* WSFSchedRouteAdj.m */,
+				50632a8d35cbee5000000000 /* WSFArrayOfInt.h */,
+				50632a8e35cbee5000000000 /* WSFArrayOfRouteBriefResponse.h */,
+				50632a8f35cbee5000000000 /* WSFArrayOfSchedRouteAdj.h */,
+				50632a9035cbee5000000000 /* WSFArrayOfSchedTime.m */,
+				50632a9135cbee5000000000 /* WSFTerminalMsg.h */,
+				50632a9235cbee5000000000 /* WSFSchedSailingResponse.h */,
+				50632a9335cbee5000000000 /* WSFAlertResponse.m */,
+				50632a9435cbee5000000000 /* WSFTripDateMsg.m */,
+				50632a9535cbee5000000000 /* WSFTerminalComboResponse.m */,
+				50632a9635cbee5000000000 /* WSFArrayOfSchedRouteAdj.m */,
+				50632a9735cbee5000000000 /* WSFArrayOfSchedRouteBriefResponse.h */,
+
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		10C71F91110C0A71008E8718 /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */,
+				1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */,
+				10C71F92110C0A71008E8718 /* NSData+Base64.h */,
+				10C71F93110C0A71008E8718 /* NSData+Base64.m */,
+				10C71F94110C0A71008E8718 /* Soap.h */,
+				10C71F95110C0A71008E8718 /* Soap.m */,
+				10C71F96110C0A71008E8718 /* SoapArray.h */,
+				10C71F97110C0A71008E8718 /* SoapArray.m */,
+				10C71F98110C0A71008E8718 /* SoapDelegate.h */,
+				10C71F9B110C0A71008E8718 /* SoapFault.h */,
+				10C71F9C110C0A71008E8718 /* SoapFault.m */,
+				10C71F9D110C0A71008E8718 /* SoapHandler.h */,
+				10C71F9E110C0A71008E8718 /* SoapHandler.m */,
+				10C71F9F110C0A71008E8718 /* SoapNil.h */,
+				10C71FA0110C0A71008E8718 /* SoapNil.m */,
+				107DACA71217305B00F18A8A /* SoapLiteral.m */,
+				107DACA81217305B00F18A8A /* SoapLiteral.h */,
+				10C71FA1110C0A71008E8718 /* SoapObject.h */,
+				10C71FA2110C0A71008E8718 /* SoapObject.m */,
+				10C71FA3110C0A71008E8718 /* SoapParameter.h */,
+				10C71FA4110C0A71008E8718 /* SoapParameter.m */,
+				10C71FA5110C0A71008E8718 /* SoapReachability.h */,
+				10C71FA6110C0A71008E8718 /* SoapReachability.m */,
+				10C71FA7110C0A71008E8718 /* SoapRequest.h */,
+				10C71FA8110C0A71008E8718 /* SoapRequest.m */,
+				10C71FA9110C0A71008E8718 /* SoapService.h */,
+				10C71FAA110C0A71008E8718 /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		10C71FAB110C0A71008E8718 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				102D2BA814A40F30003ABF37 /* CTidy.h */,
+				102D2BA914A40F30003ABF37 /* CTidy.m */,
+				102D2BAA14A40F30003ABF37 /* CXMLDocument_CreationExtensions.h */,
+				102D2BAB14A40F30003ABF37 /* CXMLDocument_CreationExtensions.m */,
+				102D2BAC14A40F30003ABF37 /* CXMLNode_CreationExtensions.h */,
+				102D2BAD14A40F30003ABF37 /* CXMLNode_CreationExtensions.m */,
+				10C71FAC110C0A71008E8718 /* CXMLDocument.h */,
+				10C71FAD110C0A71008E8718 /* CXMLDocument.m */,
+				10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */,
+				10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */,
+				10C71FB0110C0A71008E8718 /* CXMLElement.h */,
+				10C71FB1110C0A71008E8718 /* CXMLElement.m */,
+				10C71FB2110C0A71008E8718 /* CXMLNode.h */,
+				10C71FB3110C0A71008E8718 /* CXMLNode.m */,
+				10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */,
+				10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */,
+				10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */,
+				10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */,
+				102D2B8C14A40C81003ABF37 /* CXHTMLDocument.h */,
+				102D2B8D14A40C81003ABF37 /* CXHTMLDocument.m */,
+				102D2B8E14A40C81003ABF37 /* CXMLElement_CreationExtensions.h */,
+				102D2B8F14A40C81003ABF37 /* CXMLElement_CreationExtensions.m */,
+				102D2B9014A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.h */,
+				102D2B9114A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.m */,
+				102D2B9214A40C81003ABF37 /* CXMLNamespaceNode.h */,
+				102D2B9314A40C81003ABF37 /* CXMLNamespaceNode.m */,
+				10C71FB8110C0A71008E8718 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SudzCExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				10C71EBB110C0A71008E8718 /* Source */,
+				10C71DC8110B5D8E008E8718 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SudzCExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudzCExamples;
+			productName = SudzCExamples;
+			productReference = 1D6058910D05DD3D006BFB54 /* SudzCExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SudzCExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */,
+				50632a9935cbee5000000000 /* WSFWSF_x0020_ScheduleExample.m in Sources */,
+				50632a9d35cbee5000000000 /* WSFArrayOfSchedTimeAdjResponse.m in Sources */,
+				50632a9e35cbee5000000000 /* WSFSchedTime.m in Sources */,
+				50632a9f35cbee5000000000 /* WSFSchedSailingResponse.m in Sources */,
+				50632aa035cbee5000000000 /* WSFArrayOfTerminalComboResponse.m in Sources */,
+				50632aa135cbee5000000000 /* WSFSchedJourn.m in Sources */,
+				50632aa235cbee5000000000 /* WSFRouteTodayMsg.m in Sources */,
+				50632aa435cbee5000000000 /* WSFSchedBriefResponse.m in Sources */,
+				50632aa535cbee5000000000 /* WSFSchedTimeTerminal.m in Sources */,
+				50632aad35cbee6000000000 /* WSFArrayOfInt.m in Sources */,
+				50632ab735cbee6000000000 /* WSFArrayOfSchedRouteBriefResponse.m in Sources */,
+				50632aba35cbee6000000000 /* WSFArrayOfSchedSailingResponse.m in Sources */,
+				50632abb35cbee6000000000 /* WSFTerminalComboTodayMsg.m in Sources */,
+				50632abc35cbee6000000000 /* WSFTerminalResponse.m in Sources */,
+				50632abe35cbee6000000000 /* WSFArrayOfSchedTimeTerminal.m in Sources */,
+				50632ac035cbee6000000000 /* WSFSchedMsg.m in Sources */,
+				50632ac135cbee6000000000 /* WSFArrayOfSchedSailingDateRange.m in Sources */,
+				50632ac235cbee6000000000 /* WSFSchedTimeAdjResponse.m in Sources */,
+				50632ac335cbee6000000000 /* WSFArrayOfSchedTerminalCombo.m in Sources */,
+				50632ac535cbee6000000000 /* WSFRouteResponse.m in Sources */,
+				50632ac635cbee6000000000 /* WSFRouteBriefResponse.m in Sources */,
+				50632ac735cbee6000000000 /* WSFArrayOfSchedBriefResponse.m in Sources */,
+				50632aca35cbee6000000000 /* WSFRouteBriefMsg.m in Sources */,
+				50632ace35cbee6000000000 /* WSFArrayOfSchedJourn.m in Sources */,
+				50632acf35cbee6000000000 /* WSFArrayOfTerminalResponse.m in Sources */,
+				50632ad035cbee6000000000 /* WSFSchedSailingDateRange.m in Sources */,
+				50632ad135cbee6000000000 /* WSFRouteAlert.m in Sources */,
+				50632ad235cbee6000000000 /* WSFServices.m in Sources */,
+				50632ad335cbee6000000000 /* Soap+Prefix.m in Sources */,
+				50632ad535cbee6000000000 /* WSFArrayOfAlertResponse.m in Sources */,
+				50632ad735cbee6000000000 /* WSFAPIAccessHeader.m in Sources */,
+				50632ad835cbee6000000000 /* WSFArrayOfRouteBriefAlert.m in Sources */,
+				50632ad935cbee6000000000 /* WSFArrayOfSchedAnnotation.m in Sources */,
+				50632adb35cbee6000000000 /* WSFArrayOfRouteAlert.m in Sources */,
+				50632adc35cbee6000000000 /* WSFSchedAnnotation.m in Sources */,
+				50632ae035cbee6000000000 /* WSFSchedTerminalCombo.m in Sources */,
+				50632ae235cbee6000000000 /* WSFTerminalMsg.m in Sources */,
+				50632ae435cbee6000000000 /* WSFArrayOfRouteBriefResponse.m in Sources */,
+				50632ae535cbee6000000000 /* WSFValidDateRangeResponse.m in Sources */,
+				50632ae635cbee6000000000 /* WSFWSF_x0020_Schedule.m in Sources */,
+				50632ae935cbee6000000000 /* WSFRouteBriefAlert.m in Sources */,
+				50632aeb35cbee6000000000 /* WSFRouteMsg.m in Sources */,
+				50632aec35cbee6000000000 /* WSFSchedRouteMsg.m in Sources */,
+				50632aed35cbee6000000000 /* WSFSchedRouteBriefResponse.m in Sources */,
+				50632af035cbee6000000000 /* WSFArrayOfRouteResponse.m in Sources */,
+				50632af435cbee7000000000 /* WSFSchedResponse.m in Sources */,
+				50632af535cbee7000000000 /* WSFArrayOfString.m in Sources */,
+				50632af635cbee7000000000 /* WSFTerminalComboMsg.m in Sources */,
+				50632af835cbee7000000000 /* WSFSchedRouteAdj.m in Sources */,
+				50632afc35cbee7000000000 /* WSFArrayOfSchedTime.m in Sources */,
+				50632aff35cbee7000000000 /* WSFAlertResponse.m in Sources */,
+				50632b0035cbee7000000000 /* WSFTripDateMsg.m in Sources */,
+				50632b0135cbee7000000000 /* WSFTerminalComboResponse.m in Sources */,
+				50632b0235cbee7000000000 /* WSFArrayOfSchedRouteAdj.m in Sources */,
+
+				1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */,
+				10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */,
+				10C72024110C0A71008E8718 /* Soap.m in Sources */,
+				10C72025110C0A71008E8718 /* SoapArray.m in Sources */,
+				10C72027110C0A71008E8718 /* SoapFault.m in Sources */,
+				10C72028110C0A71008E8718 /* SoapHandler.m in Sources */,
+				10C72029110C0A71008E8718 /* SoapNil.m in Sources */,
+				107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */,
+				10C7202A110C0A71008E8718 /* SoapObject.m in Sources */,
+				10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */,
+				10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */,
+				10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */,
+				10C7202E110C0A71008E8718 /* SoapService.m in Sources */,
+				10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */,
+				10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				10C72031110C0A71008E8718 /* CXMLElement.m in Sources */,
+				10C72032110C0A71008E8718 /* CXMLNode.m in Sources */,
+				10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */,
+				10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */,
+				102D2B9414A40C81003ABF37 /* CXHTMLDocument.m in Sources */,
+				102D2B9514A40C81003ABF37 /* CXMLElement_CreationExtensions.m in Sources */,
+				102D2B9614A40C81003ABF37 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				102D2B9714A40C81003ABF37 /* CXMLNamespaceNode.m in Sources */,
+				102D2BAE14A40F30003ABF37 /* CTidy.m in Sources */,
+				102D2BAF14A40F30003ABF37 /* CXMLDocument_CreationExtensions.m in Sources */,
+				102D2BB014A40F30003ABF37 /* CXMLNode_CreationExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

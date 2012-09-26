@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.wsdot.wa.gov/ferries/terminals/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.wsdot.wa.gov/ferries/terminals/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The Washington State Ferries terminals web service provides information pertaining to the locations where vessels load or unload passengers.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.wsdot.wa.gov/ferries/terminals/">
+      <s:element name="GetAllTerminalBasicDetails">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalBasicDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalBasicDetailsResult" type="tns:ArrayOfTerminalBasicResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalBasicResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalBasicResponse" nillable="true" type="tns:TerminalBasicResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalBasicResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="OverheadPassengerLoading" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Elevator" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="WaitingRoom" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="FoodService" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Restroom" type="s:boolean"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="APIAccessHeader" type="tns:APIAccessHeader"/>
+      <s:complexType name="APIAccessHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="APIAccessCode" type="s:string"/>
+        </s:sequence>
+        <s:anyAttribute/>
+      </s:complexType>
+      <s:element name="GetAllTerminalLocations">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalLocationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalLocationsResult" type="tns:ArrayOfTerminalLocationResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalLocationResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalLocationResponse" nillable="true" type="tns:TerminalLocationResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalLocationResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:double"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:double"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AddressLineOne" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AddressLineTwo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ZipCode" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="MapLink" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Directions" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="DispGISZoomLoc" type="tns:ArrayOfGISZoomLocation"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfGISZoomLocation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GISZoomLocation" nillable="true" type="tns:GISZoomLocation"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GISZoomLocation">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ZoomLevel" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:double"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:double"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllTerminalTransportationOptions">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalTransportationOptionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalTransportationOptionsResult" type="tns:ArrayOfTerminalTransportationResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalTransportationResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalTransportationResponse" nillable="true" type="tns:TerminalTransportationResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalTransportationResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ParkingInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ParkingShuttleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AirportInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AirportShuttleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="MotorcycleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TruckInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="BikeInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TrainInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TaxiInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="HovInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TransitLinks" type="tns:ArrayOfLink"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLink">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="tns:Link"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Link">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="LinkURL" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="LinkName" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" nillable="true" type="s:int"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllTerminalVerboseDetails">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalVerboseDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalVerboseDetailsResult" type="tns:ArrayOfTerminalVerboseResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalVerboseResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalVerboseResponse" nillable="true" type="tns:TerminalVerboseResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalVerboseResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="OverheadPassengerLoading" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Elevator" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="WaitingRoom" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="FoodService" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Restroom" type="s:boolean"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:double"/>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:double"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AddressLineOne" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AddressLineTwo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ZipCode" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="MapLink" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Directions" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="DispGISZoomLoc" type="tns:ArrayOfGISZoomLocation"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ParkingInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ParkingShuttleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AirportInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AirportShuttleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="MotorcycleInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TruckInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="BikeInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TrainInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TaxiInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="HovInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TransitLinks" type="tns:ArrayOfLink"/>
+          <s:element minOccurs="0" maxOccurs="1" name="WaitTimes" type="tns:ArrayOfWaitTime"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AdditionalInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="LostAndFoundInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="SecurityInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ConstructionInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="FoodServiceInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="AdaInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="FareDiscountInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TallySystemInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ChamberOfCommerce" type="tns:Link"/>
+          <s:element minOccurs="0" maxOccurs="1" name="FacInfo" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ResourceStatus" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TypeDesc" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="VisitorLinks" type="tns:ArrayOfLink"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Bulletins" type="tns:ArrayOfBulletin"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfWaitTime">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WaitTime" nillable="true" type="tns:WaitTime"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WaitTime">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RouteID" nillable="true" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="RouteName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="WaitTimeNotes" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="WaitTimeLastUpdated" nillable="true" type="s:dateTime"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBulletin">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Bulletin" nillable="true" type="tns:Bulletin"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Bulletin">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BulletinTitle" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="BulletinText" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="BulletinSortSeq" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="BulletinLastUpdated" nillable="true" type="s:dateTime"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllTerminalWaitTimes">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalWaitTimesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalWaitTimesResult" type="tns:ArrayOfTerminalWaitTimeResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalWaitTimeResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalWaitTimeResponse" nillable="true" type="tns:TerminalWaitTimeResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalWaitTimeResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="WaitTimes" type="tns:ArrayOfWaitTime"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllTerminalBulletins">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetAllTerminalBulletinsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllTerminalBulletinsResult" type="tns:ArrayOfTerminalBulletinResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTerminalBulletinResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TerminalBulletinResponse" nillable="true" type="tns:TerminalBulletinResponse"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TerminalBulletinResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalSubjectID" type="s:int"/>
+          <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalName" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalAbbrev" type="s:string"/>
+          <s:element minOccurs="1" maxOccurs="1" name="SortSeq" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Bulletins" type="tns:ArrayOfBulletin"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCacheFlushDate">
+        <s:complexType/>
+      </s:element>
+      <s:element name="GetCacheFlushDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCacheFlushDateResult" nillable="true" type="s:dateTime"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalBasicDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TerminalMsg">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TerminalID" type="s:int"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSpecificTerminalBasicDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalBasicDetailResult" type="tns:TerminalBasicResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalLocationResult" type="tns:TerminalLocationResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalTransportationOption">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalTransportationOptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalTransportationOptionResult" type="tns:TerminalTransportationResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalVerboseDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalVerboseDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalVerboseDetailResult" type="tns:TerminalVerboseResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalWaitTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalWaitTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalWaitTimeResult" type="tns:TerminalWaitTimeResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalBulletin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:TerminalMsg"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecificTerminalBulletinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecificTerminalBulletinResult" type="tns:TerminalBulletinResponse"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfTerminalBasicResponse" nillable="true" type="tns:ArrayOfTerminalBasicResponse"/>
+      <s:element name="ArrayOfTerminalLocationResponse" nillable="true" type="tns:ArrayOfTerminalLocationResponse"/>
+      <s:element name="ArrayOfTerminalTransportationResponse" nillable="true" type="tns:ArrayOfTerminalTransportationResponse"/>
+      <s:element name="ArrayOfTerminalVerboseResponse" nillable="true" type="tns:ArrayOfTerminalVerboseResponse"/>
+      <s:element name="ArrayOfTerminalWaitTimeResponse" nillable="true" type="tns:ArrayOfTerminalWaitTimeResponse"/>
+      <s:element name="ArrayOfTerminalBulletinResponse" nillable="true" type="tns:ArrayOfTerminalBulletinResponse"/>
+      <s:element name="dateTime" nillable="true" type="s:dateTime"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllTerminalBasicDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalBasicDetails"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBasicDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalBasicDetailsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBasicDetailsAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalLocationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalLocations"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalLocationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalLocationsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalLocationsAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalTransportationOptionsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalTransportationOptions"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalTransportationOptionsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalTransportationOptionsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalTransportationOptionsAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalVerboseDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalVerboseDetails"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalVerboseDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalVerboseDetailsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalVerboseDetailsAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalWaitTimesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalWaitTimes"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalWaitTimesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalWaitTimesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalWaitTimesAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBulletinsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalBulletins"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBulletinsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllTerminalBulletinsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBulletinsAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetCacheFlushDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCacheFlushDate"/>
+  </wsdl:message>
+  <wsdl:message name="GetCacheFlushDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCacheFlushDateResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBasicDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalBasicDetail"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBasicDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalBasicDetailResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBasicDetailAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalLocation"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalLocationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalLocationAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalTransportationOptionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalTransportationOption"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalTransportationOptionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalTransportationOptionResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalTransportationOptionAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalVerboseDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalVerboseDetail"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalVerboseDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalVerboseDetailResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalVerboseDetailAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalWaitTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalWaitTime"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalWaitTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalWaitTimeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalWaitTimeAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBulletinSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalBulletin"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBulletinSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecificTerminalBulletinResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetSpecificTerminalBulletinAPIAccessHeader">
+    <wsdl:part name="APIAccessHeader" element="tns:APIAccessHeader"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBasicDetailsHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalBasicDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalBasicResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalLocationsHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalLocationsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalLocationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalTransportationOptionsHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalTransportationOptionsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalTransportationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalVerboseDetailsHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalVerboseDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalVerboseResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalWaitTimesHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalWaitTimesHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalWaitTimeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBulletinsHttpGetIn"/>
+  <wsdl:message name="GetAllTerminalBulletinsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalBulletinResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCacheFlushDateHttpGetIn"/>
+  <wsdl:message name="GetCacheFlushDateHttpGetOut">
+    <wsdl:part name="Body" element="tns:dateTime"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBasicDetailsHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalBasicDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalBasicResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalLocationsHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalLocationsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalLocationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalTransportationOptionsHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalTransportationOptionsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalTransportationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalVerboseDetailsHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalVerboseDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalVerboseResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalWaitTimesHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalWaitTimesHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalWaitTimeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetAllTerminalBulletinsHttpPostIn"/>
+  <wsdl:message name="GetAllTerminalBulletinsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTerminalBulletinResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCacheFlushDateHttpPostIn"/>
+  <wsdl:message name="GetCacheFlushDateHttpPostOut">
+    <wsdl:part name="Body" element="tns:dateTime"/>
+  </wsdl:message>
+  <wsdl:portType name="WSF_x0020_TerminalsSoap">
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a basic level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBasicDetailsSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalBasicDetailsSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retrieves the location of each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalLocationsSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalLocationsSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Describes transportation options for each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalTransportationOptionsSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalTransportationOptionsSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a verbose level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalVerboseDetailsSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalVerboseDetailsSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current wait time information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalWaitTimesSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalWaitTimesSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current bulletin information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBulletinsSoapIn"/>
+      <wsdl:output message="tns:GetAllTerminalBulletinsSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Most web methods in this service are cached.  If you are also using caching in your user interface, it may be helpful to know the date and time that the cache was last flushed in this web service.</wsdl:documentation>
+      <wsdl:input message="tns:GetCacheFlushDateSoapIn"/>
+      <wsdl:output message="tns:GetCacheFlushDateSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBasicDetail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a basic level of detail about a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalBasicDetailSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalBasicDetailSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalLocation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retrieves the location of a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalLocationSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalLocationSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalTransportationOption">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Describes transportation options for a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalTransportationOptionSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalTransportationOptionSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalVerboseDetail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a verbose level of detail about a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalVerboseDetailSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalVerboseDetailSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalWaitTime">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current wait time information associated with a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalWaitTimeSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalWaitTimeSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBulletin">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current bulletin information associated with a specific terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetSpecificTerminalBulletinSoapIn"/>
+      <wsdl:output message="tns:GetSpecificTerminalBulletinSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSF_x0020_TerminalsHttpGet">
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a basic level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBasicDetailsHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalBasicDetailsHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retrieves the location of each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalLocationsHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalLocationsHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Describes transportation options for each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalTransportationOptionsHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalTransportationOptionsHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a verbose level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalVerboseDetailsHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalVerboseDetailsHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current wait time information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalWaitTimesHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalWaitTimesHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current bulletin information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBulletinsHttpGetIn"/>
+      <wsdl:output message="tns:GetAllTerminalBulletinsHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Most web methods in this service are cached.  If you are also using caching in your user interface, it may be helpful to know the date and time that the cache was last flushed in this web service.</wsdl:documentation>
+      <wsdl:input message="tns:GetCacheFlushDateHttpGetIn"/>
+      <wsdl:output message="tns:GetCacheFlushDateHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSF_x0020_TerminalsHttpPost">
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a basic level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBasicDetailsHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalBasicDetailsHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retrieves the location of each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalLocationsHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalLocationsHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Describes transportation options for each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalTransportationOptionsHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalTransportationOptionsHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides a verbose level of detail about each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalVerboseDetailsHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalVerboseDetailsHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current wait time information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalWaitTimesHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalWaitTimesHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Provides the most current bulletin information associated with each terminal.  This web method is cached.</wsdl:documentation>
+      <wsdl:input message="tns:GetAllTerminalBulletinsHttpPostIn"/>
+      <wsdl:output message="tns:GetAllTerminalBulletinsHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Most web methods in this service are cached.  If you are also using caching in your user interface, it may be helpful to know the date and time that the cache was last flushed in this web service.</wsdl:documentation>
+      <wsdl:input message="tns:GetCacheFlushDateHttpPostIn"/>
+      <wsdl:output message="tns:GetCacheFlushDateHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSF_x0020_TerminalsSoap" type="tns:WSF_x0020_TerminalsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalBasicDetails" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalBasicDetailsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalLocations" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalLocationsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalTransportationOptions" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalTransportationOptionsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalVerboseDetails" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalVerboseDetailsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalWaitTimes" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalWaitTimesAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalBulletins" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetAllTerminalBulletinsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetCacheFlushDate" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBasicDetail">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalBasicDetail" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalBasicDetailAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalLocation">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalLocation" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalLocationAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalTransportationOption">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalTransportationOption" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalTransportationOptionAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalVerboseDetail">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalVerboseDetail" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalVerboseDetailAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalWaitTime">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalWaitTime" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalWaitTimeAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBulletin">
+      <soap:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalBulletin" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+        <soap:header message="tns:GetSpecificTerminalBulletinAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSF_x0020_TerminalsSoap12" type="tns:WSF_x0020_TerminalsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalBasicDetails" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalBasicDetailsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalLocations" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalLocationsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalTransportationOptions" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalTransportationOptionsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalVerboseDetails" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalVerboseDetailsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalWaitTimes" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalWaitTimesAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetAllTerminalBulletins" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetAllTerminalBulletinsAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetCacheFlushDate" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBasicDetail">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalBasicDetail" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalBasicDetailAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalLocation">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalLocation" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalLocationAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalTransportationOption">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalTransportationOption" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalTransportationOptionAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalVerboseDetail">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalVerboseDetail" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalVerboseDetailAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalWaitTime">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalWaitTime" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalWaitTimeAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecificTerminalBulletin">
+      <soap12:operation soapAction="http://www.wsdot.wa.gov/ferries/terminals/GetSpecificTerminalBulletin" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:GetSpecificTerminalBulletinAPIAccessHeader" part="APIAccessHeader" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSF_x0020_TerminalsHttpGet" type="tns:WSF_x0020_TerminalsHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <http:operation location="/GetAllTerminalBasicDetails"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <http:operation location="/GetAllTerminalLocations"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <http:operation location="/GetAllTerminalTransportationOptions"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <http:operation location="/GetAllTerminalVerboseDetails"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <http:operation location="/GetAllTerminalWaitTimes"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <http:operation location="/GetAllTerminalBulletins"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <http:operation location="/GetCacheFlushDate"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSF_x0020_TerminalsHttpPost" type="tns:WSF_x0020_TerminalsHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="GetAllTerminalBasicDetails">
+      <http:operation location="/GetAllTerminalBasicDetails"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalLocations">
+      <http:operation location="/GetAllTerminalLocations"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalTransportationOptions">
+      <http:operation location="/GetAllTerminalTransportationOptions"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalVerboseDetails">
+      <http:operation location="/GetAllTerminalVerboseDetails"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalWaitTimes">
+      <http:operation location="/GetAllTerminalWaitTimes"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTerminalBulletins">
+      <http:operation location="/GetAllTerminalBulletins"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheFlushDate">
+      <http:operation location="/GetCacheFlushDate"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSF_x0020_Terminals">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The Washington State Ferries terminals web service provides information pertaining to the locations where vessels load or unload passengers.</wsdl:documentation>
+    <wsdl:port name="WSF_x0020_TerminalsSoap" binding="tns:WSF_x0020_TerminalsSoap">
+      <soap:address location="http://b2b.wsdot.wa.gov/ferries/terminals/default.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="WSF_x0020_TerminalsSoap12" binding="tns:WSF_x0020_TerminalsSoap12">
+      <soap12:address location="http://b2b.wsdot.wa.gov/ferries/terminals/default.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="WSF_x0020_TerminalsHttpGet" binding="tns:WSF_x0020_TerminalsHttpGet">
+      <http:address location="http://b2b.wsdot.wa.gov/ferries/terminals/default.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="WSF_x0020_TerminalsHttpPost" binding="tns:WSF_x0020_TerminalsHttpPost">
+      <http:address location="http://b2b.wsdot.wa.gov/ferries/terminals/default.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
